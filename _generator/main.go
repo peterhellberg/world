@@ -51,7 +51,6 @@ func generateCountries(db *sql.DB, f *os.File) {
 			key   = ""
 			code  = ""
 			motor = ""
-			iso2  = ""
 			iso3  = ""
 			fifa  = ""
 			net   = ""
@@ -65,14 +64,13 @@ func generateCountries(db *sql.DB, f *os.File) {
 			&slug,
 			&key,
 			&code,
-			&motor,
-			&iso2,
 			&iso3,
 			&fifa,
 			&net,
 			&cName,
 			&pop,
 			&area,
+			&motor,
 		)
 
 		keys = append(keys, key)
@@ -83,7 +81,6 @@ func generateCountries(db *sql.DB, f *os.File) {
 			Key:           key,
 			Code:          code,
 			Motor:         motor,
-			Alpha2:        iso2,
 			Alpha3:        iso3,
 			FIFA:          fifa,
 			Net:           net,
@@ -108,7 +105,6 @@ type CountryData struct {
 	Key           string
 	Code          string
 	Motor         string
-	Alpha2        string
 	Alpha3        string
 	FIFA          string
 	Net           string
@@ -127,13 +123,13 @@ C.name,
 C.slug,
 C.key,
 C.code,
-C.motor
 C.iso3,
 C.fifa,
 C.net,
 T.Name,
 C.pop,
 C.area,
+C.motor
 FROM COUNTRIES AS C
 JOIN CONTINENTS AS T
 ON C.continent_id == T.id`
