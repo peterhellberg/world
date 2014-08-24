@@ -94,7 +94,7 @@ func generateCountries(db *sql.DB, f *os.File) {
 	f.WriteString("\nfunc init() {")
 	for _, key := range keys {
 		k := strings.ToUpper(key)
-		f.WriteString("\n\tWorld[\"" + k + "\"] = " + k)
+		f.WriteString("\n\tCountries[\"" + k + "\"] = " + k)
 	}
 	f.WriteString("\n}")
 }

@@ -9,5 +9,5 @@ import (
 func TestWorld(t *testing.T) {
 	assert := assert.New(t)
 
-	assert.Equal(len(World), 245)
+	assert.Equal(len(Countries), 245)
 }
