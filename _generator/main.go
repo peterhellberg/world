@@ -96,7 +96,7 @@ func generateCountries(db *sql.DB, f *os.File) {
 		k := strings.ToUpper(key)
 		f.WriteString("\n\tCountries[\"" + k + "\"] = " + k)
 	}
-	f.WriteString("\n}")
+	f.WriteString("\n}\n")
 }
 
 type CountryData struct {
