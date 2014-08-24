@@ -81,17 +81,17 @@ func generateCountries(db *sql.DB, f *os.File) {
 		}
 
 		countryTemplate.Execute(os.Stdout, &CountryData{
-			Name:          name,
-			Slug:          slug,
-			Key:           key,
-			Code:          code,
-			Motor:         motor,
-			Alpha3:        iso3,
-			FIFA:          fifa,
-			Net:           net,
-			ContinentName: cName,
-			Pop:           pop,
-			Area:          area,
+			Name:   name,
+			Slug:   slug,
+			Key:    key,
+			Code:   code,
+			Motor:  motor,
+			Alpha3: iso3,
+			FIFA:   fifa,
+			Net:    net,
+			Region: cName,
+			Pop:    pop,
+			Area:   area,
 		})
 	}
 	rows.Close()
@@ -112,17 +112,17 @@ func generateCountries(db *sql.DB, f *os.File) {
 }
 
 type CountryData struct {
-	Name          string
-	Slug          string
-	Key           string
-	Code          string
-	Motor         string
-	Alpha3        string
-	FIFA          string
-	Net           string
-	ContinentName string
-	Pop           int
-	Area          int
+	Name   string
+	Slug   string
+	Key    string
+	Code   string
+	Motor  string
+	Alpha3 string
+	FIFA   string
+	Net    string
+	Region string
+	Pop    int
+	Area   int
 }
 
 var countriesFileHeader = `// Automatically generated file. Do not edit!
@@ -154,15 +154,15 @@ var funcMap = template.FuncMap{
 var countryTemplate = template.Must(template.New("c").Funcs(funcMap).Parse(`
 // {{.Key | ToUpper}} contains the data for {{.Name}}
 var {{.Key | ToUpper}} = &Country{
-	Name:          "{{.Name}}",
-	Key:           "{{.Key}}",
-	Code:          "{{.Code}}",
-	Motor:         "{{.Motor}}",
-	Alpha3:        "{{.Alpha3}}",
-	FIFA:          "{{.FIFA}}",
-	Net:           "{{.Net}}",
-	ContinentName: "{{.ContinentName}}",
-	Pop:           {{.Pop}},
-	Area:          {{.Area}},
+	Name:   "{{.Name}}",
+	Key:    "{{.Key}}",
+	Code:   "{{.Code}}",
+	Motor:  "{{.Motor}}",
+	Alpha3: "{{.Alpha3}}",
+	FIFA:   "{{.FIFA}}",
+	Net:    "{{.Net}}",
+	Region: "{{.Region}}",
+	Pop:    {{.Pop}},
+	Area:   {{.Area}},
 }
 `))
