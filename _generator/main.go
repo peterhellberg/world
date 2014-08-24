@@ -42,7 +42,8 @@ func generateCountries(db *sql.DB, f *os.File) {
 	}
 	defer rows.Close()
 
-	keys := []string{}
+	worldCountries := []string{}
+	europeCountries := []string{}
 
 	for rows.Next() {
 		var (
@@ -73,7 +74,11 @@ func generateCountries(db *sql.DB, f *os.File) {
 			&motor,
 		)
 
-		keys = append(keys, key)
+		worldCountries = append(worldCountries, key)
+
+		if cName == "Europe" {
+			europeCountries = append(europeCountries, key)
+		}
 
 		countryTemplate.Execute(os.Stdout, &CountryData{
 			Name:          name,
@@ -92,9 +97,16 @@ func generateCountries(db *sql.DB, f *os.File) {
 	rows.Close()
 
 	f.WriteString("\nfunc init() {")
-	for _, key := range keys {
+	f.WriteString("\n\t// Countries in the world")
+	for _, key := range worldCountries {
 		k := strings.ToUpper(key)
 		f.WriteString("\n\tCountries[\"" + k + "\"] = " + k)
+	}
+
+	f.WriteString("\n\n\t// Countries in Europe")
+	for _, key := range europeCountries {
+		k := strings.ToUpper(key)
+		f.WriteString("\n\tEurope[\"" + k + "\"] = " + k)
 	}
 	f.WriteString("\n}\n")
 }

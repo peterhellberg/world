@@ -3433,6 +3433,7 @@ var ZW = &Country{
 }
 
 func init() {
+	// Countries in the world
 	Countries["AD"] = AD
 	Countries["AE"] = AE
 	Countries["AF"] = AF
@@ -3678,4 +3679,61 @@ func init() {
 	Countries["ZA"] = ZA
 	Countries["ZM"] = ZM
 	Countries["ZW"] = ZW
+
+	// Countries in Europe
+	Europe["AD"] = AD
+	Europe["AL"] = AL
+	Europe["AM"] = AM
+	Europe["AT"] = AT
+	Europe["AZ"] = AZ
+	Europe["BA"] = BA
+	Europe["BE"] = BE
+	Europe["BG"] = BG
+	Europe["BY"] = BY
+	Europe["CH"] = CH
+	Europe["CY"] = CY
+	Europe["CZ"] = CZ
+	Europe["DE"] = DE
+	Europe["DK"] = DK
+	Europe["EE"] = EE
+	Europe["EN"] = EN
+	Europe["ES"] = ES
+	Europe["EU"] = EU
+	Europe["FI"] = FI
+	Europe["FO"] = FO
+	Europe["FR"] = FR
+	Europe["GB"] = GB
+	Europe["GE"] = GE
+	Europe["GR"] = GR
+	Europe["HR"] = HR
+	Europe["HU"] = HU
+	Europe["IE"] = IE
+	Europe["IS"] = IS
+	Europe["IT"] = IT
+	Europe["LI"] = LI
+	Europe["LT"] = LT
+	Europe["LU"] = LU
+	Europe["LV"] = LV
+	Europe["MC"] = MC
+	Europe["MD"] = MD
+	Europe["ME"] = ME
+	Europe["MK"] = MK
+	Europe["MT"] = MT
+	Europe["ND"] = ND
+	Europe["NL"] = NL
+	Europe["NO"] = NO
+	Europe["PL"] = PL
+	Europe["PT"] = PT
+	Europe["RO"] = RO
+	Europe["RS"] = RS
+	Europe["RU"] = RU
+	Europe["SC"] = SC
+	Europe["SE"] = SE
+	Europe["SI"] = SI
+	Europe["SK"] = SK
+	Europe["SM"] = SM
+	Europe["TR"] = TR
+	Europe["UA"] = UA
+	Europe["VA"] = VA
+	Europe["WA"] = WA
 }
