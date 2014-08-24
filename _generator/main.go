@@ -132,7 +132,8 @@ C.area,
 C.motor
 FROM COUNTRIES AS C
 JOIN CONTINENTS AS T
-ON C.continent_id == T.id`
+ON C.continent_id == T.id
+ORDER BY C.key`
 
 var funcMap = template.FuncMap{
 	"ToUpper": strings.ToUpper,
