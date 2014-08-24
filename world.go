@@ -1,14 +1,14 @@
 package world
 
 var (
-	World             map[string]*Country
-	WorldUN           map[string]*Country
-	WorldISO          map[string]*Country
-	WorldFIFA         map[string]*Country
-	WorldG8           map[string]*Country
-	WorldG20          map[string]*Country
-	WorldCommonwealth map[string]*Country
-	Europe            map[string]*Country
-	EuropeEU          map[string]*Country
-	EuropeEuro        map[string]*Country
+	World             = make(map[string]*Country)
+	WorldUN           = make(map[string]*Country)
+	WorldISO          = make(map[string]*Country)
+	WorldFIFA         = make(map[string]*Country)
+	WorldG8           = make(map[string]*Country)
+	WorldG20          = make(map[string]*Country)
+	WorldCommonwealth = make(map[string]*Country)
+	Europe            = make(map[string]*Country)
+	EuropeEU          = make(map[string]*Country)
+	EuropeEuro        = make(map[string]*Country)
 )
