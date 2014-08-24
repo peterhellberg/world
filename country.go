@@ -19,6 +19,9 @@ type Country struct {
 	EURO   bool   // euro (currency) flag member (true|false)
 }
 
+type Territory Country
+type Supranational Country
+
 func (c *Country) IsISO() bool {
 	return c.Alpha3 != ""
 }

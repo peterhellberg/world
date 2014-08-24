@@ -2,7 +2,7 @@
 
 package world
 
-// AD contains the data for Andorra
+// AD contains data for Andorra
 var AD = &Country{
 	Name:   "Andorra",
 	Slug:   "andorra",
@@ -17,7 +17,7 @@ var AD = &Country{
 	Area:   468,
 }
 
-// AE contains the data for United Arab Emirates
+// AE contains data for United Arab Emirates
 var AE = &Country{
 	Name:   "United Arab Emirates",
 	Slug:   "united-arab-emirates",
@@ -32,7 +32,7 @@ var AE = &Country{
 	Area:   83600,
 }
 
-// AF contains the data for Afghanistan
+// AF contains data for Afghanistan
 var AF = &Country{
 	Name:   "Afghanistan",
 	Slug:   "afghanistan",
@@ -47,7 +47,7 @@ var AF = &Country{
 	Area:   647500,
 }
 
-// AG contains the data for Antigua and Barbuda
+// AG contains data for Antigua and Barbuda
 var AG = &Country{
 	Name:   "Antigua and Barbuda",
 	Slug:   "antigua-and-barbuda",
@@ -62,8 +62,8 @@ var AG = &Country{
 	Area:   440,
 }
 
-// AI contains the data for Anguilla
-var AI = &Country{
+// AI contains data for the territory Anguilla
+var AI = &Territory{
 	Name:   "Anguilla",
 	Slug:   "anguilla",
 	Key:    "ai",
@@ -77,7 +77,7 @@ var AI = &Country{
 	Area:   -1,
 }
 
-// AL contains the data for Albania
+// AL contains data for Albania
 var AL = &Country{
 	Name:   "Albania",
 	Slug:   "albania",
@@ -92,7 +92,7 @@ var AL = &Country{
 	Area:   28748,
 }
 
-// AM contains the data for Armenia
+// AM contains data for Armenia
 var AM = &Country{
 	Name:   "Armenia",
 	Slug:   "armenia",
@@ -107,7 +107,7 @@ var AM = &Country{
 	Area:   29743,
 }
 
-// AO contains the data for Angola
+// AO contains data for Angola
 var AO = &Country{
 	Name:   "Angola",
 	Slug:   "angola",
@@ -122,7 +122,7 @@ var AO = &Country{
 	Area:   1246700,
 }
 
-// AR contains the data for Argentina
+// AR contains data for Argentina
 var AR = &Country{
 	Name:   "Argentina",
 	Slug:   "argentina",
@@ -137,8 +137,8 @@ var AR = &Country{
 	Area:   2780400,
 }
 
-// AS contains the data for American Samoa
-var AS = &Country{
+// AS contains data for the territory American Samoa
+var AS = &Territory{
 	Name:   "American Samoa",
 	Slug:   "american-samoa",
 	Key:    "as",
@@ -152,7 +152,7 @@ var AS = &Country{
 	Area:   -1,
 }
 
-// AT contains the data for Austria
+// AT contains data for Austria
 var AT = &Country{
 	Name:   "Austria",
 	Slug:   "austria",
@@ -167,7 +167,7 @@ var AT = &Country{
 	Area:   83871,
 }
 
-// AU contains the data for Australia
+// AU contains data for Australia
 var AU = &Country{
 	Name:   "Australia",
 	Slug:   "australia",
@@ -182,8 +182,8 @@ var AU = &Country{
 	Area:   7686850,
 }
 
-// AW contains the data for Aruba
-var AW = &Country{
+// AW contains data for the territory Aruba
+var AW = &Territory{
 	Name:   "Aruba",
 	Slug:   "aruba",
 	Key:    "aw",
@@ -197,8 +197,8 @@ var AW = &Country{
 	Area:   -1,
 }
 
-// AX contains the data for Åland Islands
-var AX = &Country{
+// AX contains data for the territory Åland Islands
+var AX = &Territory{
 	Name:   "Åland Islands",
 	Slug:   "aland-islands",
 	Key:    "ax",
@@ -212,7 +212,7 @@ var AX = &Country{
 	Area:   -1,
 }
 
-// AZ contains the data for Azerbaijan
+// AZ contains data for Azerbaijan
 var AZ = &Country{
 	Name:   "Azerbaijan",
 	Slug:   "azerbaijan",
@@ -227,7 +227,7 @@ var AZ = &Country{
 	Area:   86600,
 }
 
-// BA contains the data for Bosnia and Herzegovina
+// BA contains data for Bosnia and Herzegovina
 var BA = &Country{
 	Name:   "Bosnia and Herzegovina",
 	Slug:   "bosnia-and-herzegovina",
@@ -242,7 +242,7 @@ var BA = &Country{
 	Area:   51197,
 }
 
-// BB contains the data for Barbados
+// BB contains data for Barbados
 var BB = &Country{
 	Name:   "Barbados",
 	Slug:   "barbados",
@@ -257,7 +257,7 @@ var BB = &Country{
 	Area:   431,
 }
 
-// BD contains the data for Bangladesh
+// BD contains data for Bangladesh
 var BD = &Country{
 	Name:   "Bangladesh",
 	Slug:   "bangladesh",
@@ -272,7 +272,7 @@ var BD = &Country{
 	Area:   147570,
 }
 
-// BE contains the data for Belgium
+// BE contains data for Belgium
 var BE = &Country{
 	Name:   "Belgium",
 	Slug:   "belgium",
@@ -287,7 +287,7 @@ var BE = &Country{
 	Area:   30528,
 }
 
-// BF contains the data for Burkina Faso
+// BF contains data for Burkina Faso
 var BF = &Country{
 	Name:   "Burkina Faso",
 	Slug:   "burkina-faso",
@@ -302,7 +302,7 @@ var BF = &Country{
 	Area:   274200,
 }
 
-// BG contains the data for Bulgaria
+// BG contains data for Bulgaria
 var BG = &Country{
 	Name:   "Bulgaria",
 	Slug:   "bulgaria",
@@ -317,7 +317,7 @@ var BG = &Country{
 	Area:   110994,
 }
 
-// BH contains the data for Bahrain
+// BH contains data for Bahrain
 var BH = &Country{
 	Name:   "Bahrain",
 	Slug:   "bahrain",
@@ -332,7 +332,7 @@ var BH = &Country{
 	Area:   765,
 }
 
-// BI contains the data for Burundi
+// BI contains data for Burundi
 var BI = &Country{
 	Name:   "Burundi",
 	Slug:   "burundi",
@@ -347,7 +347,7 @@ var BI = &Country{
 	Area:   27834,
 }
 
-// BJ contains the data for Benin
+// BJ contains data for Benin
 var BJ = &Country{
 	Name:   "Benin",
 	Slug:   "benin",
@@ -362,8 +362,8 @@ var BJ = &Country{
 	Area:   112622,
 }
 
-// BL contains the data for Saint Barthélemy
-var BL = &Country{
+// BL contains data for the territory Saint Barthélemy
+var BL = &Territory{
 	Name:   "Saint Barthélemy",
 	Slug:   "saint-barthelemy",
 	Key:    "bl",
@@ -377,8 +377,8 @@ var BL = &Country{
 	Area:   -1,
 }
 
-// BM contains the data for Bermuda
-var BM = &Country{
+// BM contains data for the territory Bermuda
+var BM = &Territory{
 	Name:   "Bermuda",
 	Slug:   "bermuda",
 	Key:    "bm",
@@ -392,7 +392,7 @@ var BM = &Country{
 	Area:   -1,
 }
 
-// BN contains the data for Brunei
+// BN contains data for Brunei
 var BN = &Country{
 	Name:   "Brunei",
 	Slug:   "brunei",
@@ -407,7 +407,7 @@ var BN = &Country{
 	Area:   5765,
 }
 
-// BO contains the data for Bolivia
+// BO contains data for Bolivia
 var BO = &Country{
 	Name:   "Bolivia",
 	Slug:   "bolivia",
@@ -422,7 +422,7 @@ var BO = &Country{
 	Area:   1098581,
 }
 
-// BR contains the data for Brazil
+// BR contains data for Brazil
 var BR = &Country{
 	Name:   "Brazil",
 	Slug:   "brazil",
@@ -437,7 +437,7 @@ var BR = &Country{
 	Area:   8514215,
 }
 
-// BS contains the data for Bahamas
+// BS contains data for Bahamas
 var BS = &Country{
 	Name:   "Bahamas",
 	Slug:   "bahamas",
@@ -452,7 +452,7 @@ var BS = &Country{
 	Area:   13878,
 }
 
-// BT contains the data for Bhutan
+// BT contains data for Bhutan
 var BT = &Country{
 	Name:   "Bhutan",
 	Slug:   "bhutan",
@@ -467,7 +467,7 @@ var BT = &Country{
 	Area:   38394,
 }
 
-// BW contains the data for Botswana
+// BW contains data for Botswana
 var BW = &Country{
 	Name:   "Botswana",
 	Slug:   "botswana",
@@ -482,7 +482,7 @@ var BW = &Country{
 	Area:   581730,
 }
 
-// BY contains the data for Belarus
+// BY contains data for Belarus
 var BY = &Country{
 	Name:   "Belarus",
 	Slug:   "belarus",
@@ -497,7 +497,7 @@ var BY = &Country{
 	Area:   207600,
 }
 
-// BZ contains the data for Belize
+// BZ contains data for Belize
 var BZ = &Country{
 	Name:   "Belize",
 	Slug:   "belize",
@@ -512,7 +512,7 @@ var BZ = &Country{
 	Area:   22966,
 }
 
-// CA contains the data for Canada
+// CA contains data for Canada
 var CA = &Country{
 	Name:   "Canada",
 	Slug:   "canada",
@@ -527,8 +527,8 @@ var CA = &Country{
 	Area:   9984670,
 }
 
-// CC contains the data for Cocos (Keeling) Islands
-var CC = &Country{
+// CC contains data for the territory Cocos (Keeling) Islands
+var CC = &Territory{
 	Name:   "Cocos (Keeling) Islands",
 	Slug:   "cocos-keeling-islands",
 	Key:    "cc",
@@ -542,7 +542,7 @@ var CC = &Country{
 	Area:   -1,
 }
 
-// CD contains the data for Congo DR
+// CD contains data for Congo DR
 var CD = &Country{
 	Name:   "Congo DR",
 	Slug:   "congo-dr",
@@ -557,7 +557,7 @@ var CD = &Country{
 	Area:   2345409,
 }
 
-// CF contains the data for Central African Republic
+// CF contains data for Central African Republic
 var CF = &Country{
 	Name:   "Central African Republic",
 	Slug:   "central-african-republic",
@@ -572,7 +572,7 @@ var CF = &Country{
 	Area:   622984,
 }
 
-// CG contains the data for Congo
+// CG contains data for Congo
 var CG = &Country{
 	Name:   "Congo",
 	Slug:   "congo",
@@ -587,7 +587,7 @@ var CG = &Country{
 	Area:   342000,
 }
 
-// CH contains the data for Switzerland
+// CH contains data for Switzerland
 var CH = &Country{
 	Name:   "Switzerland",
 	Slug:   "switzerland",
@@ -602,7 +602,7 @@ var CH = &Country{
 	Area:   41285,
 }
 
-// CI contains the data for Côte d'Ivoire
+// CI contains data for Côte d'Ivoire
 var CI = &Country{
 	Name:   "Côte d'Ivoire",
 	Slug:   "cote-divoire",
@@ -617,8 +617,8 @@ var CI = &Country{
 	Area:   322460,
 }
 
-// CK contains the data for Cook Islands
-var CK = &Country{
+// CK contains data for the territory Cook Islands
+var CK = &Territory{
 	Name:   "Cook Islands",
 	Slug:   "cook-islands",
 	Key:    "ck",
@@ -632,7 +632,7 @@ var CK = &Country{
 	Area:   -1,
 }
 
-// CL contains the data for Chile
+// CL contains data for Chile
 var CL = &Country{
 	Name:   "Chile",
 	Slug:   "chile",
@@ -647,7 +647,7 @@ var CL = &Country{
 	Area:   755696,
 }
 
-// CM contains the data for Cameroon
+// CM contains data for Cameroon
 var CM = &Country{
 	Name:   "Cameroon",
 	Slug:   "cameroon",
@@ -662,7 +662,7 @@ var CM = &Country{
 	Area:   475440,
 }
 
-// CN contains the data for China
+// CN contains data for China
 var CN = &Country{
 	Name:   "China",
 	Slug:   "china",
@@ -677,7 +677,7 @@ var CN = &Country{
 	Area:   9596961,
 }
 
-// CO contains the data for Colombia
+// CO contains data for Colombia
 var CO = &Country{
 	Name:   "Colombia",
 	Slug:   "colombia",
@@ -692,7 +692,7 @@ var CO = &Country{
 	Area:   1138748,
 }
 
-// CR contains the data for Costa Rica
+// CR contains data for Costa Rica
 var CR = &Country{
 	Name:   "Costa Rica",
 	Slug:   "costa-rica",
@@ -707,7 +707,7 @@ var CR = &Country{
 	Area:   51100,
 }
 
-// CU contains the data for Cuba
+// CU contains data for Cuba
 var CU = &Country{
 	Name:   "Cuba",
 	Slug:   "cuba",
@@ -722,7 +722,7 @@ var CU = &Country{
 	Area:   109886,
 }
 
-// CV contains the data for Cape Verde
+// CV contains data for Cape Verde
 var CV = &Country{
 	Name:   "Cape Verde",
 	Slug:   "cape-verde",
@@ -737,8 +737,8 @@ var CV = &Country{
 	Area:   4033,
 }
 
-// CW contains the data for Curaçao
-var CW = &Country{
+// CW contains data for the territory Curaçao
+var CW = &Territory{
 	Name:   "Curaçao",
 	Slug:   "curacao",
 	Key:    "cw",
@@ -752,8 +752,8 @@ var CW = &Country{
 	Area:   -1,
 }
 
-// CX contains the data for Christmas Island
-var CX = &Country{
+// CX contains data for the territory Christmas Island
+var CX = &Territory{
 	Name:   "Christmas Island",
 	Slug:   "christmas-island",
 	Key:    "cx",
@@ -767,7 +767,7 @@ var CX = &Country{
 	Area:   -1,
 }
 
-// CY contains the data for Cyprus
+// CY contains data for Cyprus
 var CY = &Country{
 	Name:   "Cyprus",
 	Slug:   "cyprus",
@@ -782,7 +782,7 @@ var CY = &Country{
 	Area:   9251,
 }
 
-// CZ contains the data for Czech Republic
+// CZ contains data for Czech Republic
 var CZ = &Country{
 	Name:   "Czech Republic",
 	Slug:   "czech-republic",
@@ -797,7 +797,7 @@ var CZ = &Country{
 	Area:   78866,
 }
 
-// DE contains the data for Germany
+// DE contains data for Germany
 var DE = &Country{
 	Name:   "Germany",
 	Slug:   "germany",
@@ -812,7 +812,7 @@ var DE = &Country{
 	Area:   357050,
 }
 
-// DJ contains the data for Djibouti
+// DJ contains data for Djibouti
 var DJ = &Country{
 	Name:   "Djibouti",
 	Slug:   "djibouti",
@@ -827,7 +827,7 @@ var DJ = &Country{
 	Area:   23200,
 }
 
-// DK contains the data for Denmark
+// DK contains data for Denmark
 var DK = &Country{
 	Name:   "Denmark",
 	Slug:   "denmark",
@@ -842,7 +842,7 @@ var DK = &Country{
 	Area:   43094,
 }
 
-// DM contains the data for Dominica
+// DM contains data for Dominica
 var DM = &Country{
 	Name:   "Dominica",
 	Slug:   "dominica",
@@ -857,7 +857,7 @@ var DM = &Country{
 	Area:   750,
 }
 
-// DO contains the data for Dominican Republic
+// DO contains data for Dominican Republic
 var DO = &Country{
 	Name:   "Dominican Republic",
 	Slug:   "dominican-republic",
@@ -872,7 +872,7 @@ var DO = &Country{
 	Area:   48671,
 }
 
-// DZ contains the data for Algeria
+// DZ contains data for Algeria
 var DZ = &Country{
 	Name:   "Algeria",
 	Slug:   "algeria",
@@ -887,7 +887,7 @@ var DZ = &Country{
 	Area:   2381740,
 }
 
-// EC contains the data for Ecuador
+// EC contains data for Ecuador
 var EC = &Country{
 	Name:   "Ecuador",
 	Slug:   "ecuador",
@@ -902,7 +902,7 @@ var EC = &Country{
 	Area:   258238,
 }
 
-// EE contains the data for Estonia
+// EE contains data for Estonia
 var EE = &Country{
 	Name:   "Estonia",
 	Slug:   "estonia",
@@ -917,7 +917,7 @@ var EE = &Country{
 	Area:   45226,
 }
 
-// EG contains the data for Egypt
+// EG contains data for Egypt
 var EG = &Country{
 	Name:   "Egypt",
 	Slug:   "egypt",
@@ -932,8 +932,8 @@ var EG = &Country{
 	Area:   1001450,
 }
 
-// EN contains the data for England
-var EN = &Country{
+// EN contains data for the territory England
+var EN = &Territory{
 	Name:   "England",
 	Slug:   "england",
 	Key:    "en",
@@ -947,7 +947,7 @@ var EN = &Country{
 	Area:   130395,
 }
 
-// ER contains the data for Eritrea
+// ER contains data for Eritrea
 var ER = &Country{
 	Name:   "Eritrea",
 	Slug:   "eritrea",
@@ -962,7 +962,7 @@ var ER = &Country{
 	Area:   117600,
 }
 
-// ES contains the data for Spain
+// ES contains data for Spain
 var ES = &Country{
 	Name:   "Spain",
 	Slug:   "spain",
@@ -977,7 +977,7 @@ var ES = &Country{
 	Area:   506030,
 }
 
-// ET contains the data for Ethiopia
+// ET contains data for Ethiopia
 var ET = &Country{
 	Name:   "Ethiopia",
 	Slug:   "ethiopia",
@@ -992,8 +992,8 @@ var ET = &Country{
 	Area:   1104300,
 }
 
-// EU contains the data for European Union
-var EU = &Country{
+// EU contains data for the supranational European Union
+var EU = &Supranational{
 	Name:   "European Union",
 	Slug:   "european-union",
 	Key:    "eu",
@@ -1007,7 +1007,7 @@ var EU = &Country{
 	Area:   4324782,
 }
 
-// FI contains the data for Finland
+// FI contains data for Finland
 var FI = &Country{
 	Name:   "Finland",
 	Slug:   "finland",
@@ -1022,7 +1022,7 @@ var FI = &Country{
 	Area:   338145,
 }
 
-// FJ contains the data for Fiji
+// FJ contains data for Fiji
 var FJ = &Country{
 	Name:   "Fiji",
 	Slug:   "fiji",
@@ -1037,8 +1037,8 @@ var FJ = &Country{
 	Area:   18274,
 }
 
-// FK contains the data for Falkland Islands
-var FK = &Country{
+// FK contains data for the territory Falkland Islands
+var FK = &Territory{
 	Name:   "Falkland Islands",
 	Slug:   "falkland-islands",
 	Key:    "fk",
@@ -1052,7 +1052,7 @@ var FK = &Country{
 	Area:   -1,
 }
 
-// FM contains the data for Micronesia
+// FM contains data for Micronesia
 var FM = &Country{
 	Name:   "Micronesia",
 	Slug:   "micronesia",
@@ -1067,8 +1067,8 @@ var FM = &Country{
 	Area:   702,
 }
 
-// FO contains the data for Faroe Islands
-var FO = &Country{
+// FO contains data for the territory Faroe Islands
+var FO = &Territory{
 	Name:   "Faroe Islands",
 	Slug:   "faroe-islands",
 	Key:    "fo",
@@ -1082,7 +1082,7 @@ var FO = &Country{
 	Area:   1399,
 }
 
-// FR contains the data for France
+// FR contains data for France
 var FR = &Country{
 	Name:   "France",
 	Slug:   "france",
@@ -1097,7 +1097,7 @@ var FR = &Country{
 	Area:   674843,
 }
 
-// GA contains the data for Gabon
+// GA contains data for Gabon
 var GA = &Country{
 	Name:   "Gabon",
 	Slug:   "gabon",
@@ -1112,7 +1112,7 @@ var GA = &Country{
 	Area:   267667,
 }
 
-// GB contains the data for Great Britain
+// GB contains data for Great Britain
 var GB = &Country{
 	Name:   "Great Britain",
 	Slug:   "great-britain",
@@ -1127,7 +1127,7 @@ var GB = &Country{
 	Area:   243610,
 }
 
-// GD contains the data for Grenada
+// GD contains data for Grenada
 var GD = &Country{
 	Name:   "Grenada",
 	Slug:   "grenada",
@@ -1142,7 +1142,7 @@ var GD = &Country{
 	Area:   344,
 }
 
-// GE contains the data for Georgia
+// GE contains data for Georgia
 var GE = &Country{
 	Name:   "Georgia",
 	Slug:   "georgia",
@@ -1157,8 +1157,8 @@ var GE = &Country{
 	Area:   69700,
 }
 
-// GF contains the data for French Guiana
-var GF = &Country{
+// GF contains data for the territory French Guiana
+var GF = &Territory{
 	Name:   "French Guiana",
 	Slug:   "french-guiana",
 	Key:    "gf",
@@ -1172,8 +1172,8 @@ var GF = &Country{
 	Area:   -1,
 }
 
-// GG contains the data for Guernsey
-var GG = &Country{
+// GG contains data for the territory Guernsey
+var GG = &Territory{
 	Name:   "Guernsey",
 	Slug:   "guernsey",
 	Key:    "gg",
@@ -1187,7 +1187,7 @@ var GG = &Country{
 	Area:   -1,
 }
 
-// GH contains the data for Ghana
+// GH contains data for Ghana
 var GH = &Country{
 	Name:   "Ghana",
 	Slug:   "ghana",
@@ -1202,8 +1202,8 @@ var GH = &Country{
 	Area:   239460,
 }
 
-// GI contains the data for Gibraltar
-var GI = &Country{
+// GI contains data for the territory Gibraltar
+var GI = &Territory{
 	Name:   "Gibraltar",
 	Slug:   "gibraltar",
 	Key:    "gi",
@@ -1217,8 +1217,8 @@ var GI = &Country{
 	Area:   -1,
 }
 
-// GL contains the data for Greenland
-var GL = &Country{
+// GL contains data for the territory Greenland
+var GL = &Territory{
 	Name:   "Greenland",
 	Slug:   "greenland",
 	Key:    "gl",
@@ -1232,7 +1232,7 @@ var GL = &Country{
 	Area:   -1,
 }
 
-// GM contains the data for Gambia
+// GM contains data for Gambia
 var GM = &Country{
 	Name:   "Gambia",
 	Slug:   "gambia",
@@ -1247,7 +1247,7 @@ var GM = &Country{
 	Area:   11295,
 }
 
-// GN contains the data for Guinea
+// GN contains data for Guinea
 var GN = &Country{
 	Name:   "Guinea",
 	Slug:   "guinea",
@@ -1262,8 +1262,8 @@ var GN = &Country{
 	Area:   245857,
 }
 
-// GP contains the data for Guadeloupe
-var GP = &Country{
+// GP contains data for the territory Guadeloupe
+var GP = &Territory{
 	Name:   "Guadeloupe",
 	Slug:   "guadeloupe",
 	Key:    "gp",
@@ -1277,7 +1277,7 @@ var GP = &Country{
 	Area:   -1,
 }
 
-// GQ contains the data for Equatorial Guinea
+// GQ contains data for Equatorial Guinea
 var GQ = &Country{
 	Name:   "Equatorial Guinea",
 	Slug:   "equatorial-guinea",
@@ -1292,7 +1292,7 @@ var GQ = &Country{
 	Area:   28050,
 }
 
-// GR contains the data for Greece
+// GR contains data for Greece
 var GR = &Country{
 	Name:   "Greece",
 	Slug:   "greece",
@@ -1307,8 +1307,8 @@ var GR = &Country{
 	Area:   131990,
 }
 
-// GS contains the data for South Georgia and South Sandwich
-var GS = &Country{
+// GS contains data for the territory South Georgia and South Sandwich
+var GS = &Territory{
 	Name:   "South Georgia and South Sandwich",
 	Slug:   "south-georgia-and-south-sandwich",
 	Key:    "gs",
@@ -1322,7 +1322,7 @@ var GS = &Country{
 	Area:   -1,
 }
 
-// GT contains the data for Guatemala
+// GT contains data for Guatemala
 var GT = &Country{
 	Name:   "Guatemala",
 	Slug:   "guatemala",
@@ -1337,8 +1337,8 @@ var GT = &Country{
 	Area:   108889,
 }
 
-// GU contains the data for Guam
-var GU = &Country{
+// GU contains data for the territory Guam
+var GU = &Territory{
 	Name:   "Guam",
 	Slug:   "guam",
 	Key:    "gu",
@@ -1352,7 +1352,7 @@ var GU = &Country{
 	Area:   -1,
 }
 
-// GW contains the data for Guinea-Bissau
+// GW contains data for Guinea-Bissau
 var GW = &Country{
 	Name:   "Guinea-Bissau",
 	Slug:   "guinea-bissau",
@@ -1367,7 +1367,7 @@ var GW = &Country{
 	Area:   36125,
 }
 
-// GY contains the data for Guyana
+// GY contains data for Guyana
 var GY = &Country{
 	Name:   "Guyana",
 	Slug:   "guyana",
@@ -1382,8 +1382,8 @@ var GY = &Country{
 	Area:   214970,
 }
 
-// HK contains the data for Hong Kong
-var HK = &Country{
+// HK contains data for the territory Hong Kong
+var HK = &Territory{
 	Name:   "Hong Kong",
 	Slug:   "hong-kong",
 	Key:    "hk",
@@ -1397,7 +1397,7 @@ var HK = &Country{
 	Area:   1104,
 }
 
-// HN contains the data for Honduras
+// HN contains data for Honduras
 var HN = &Country{
 	Name:   "Honduras",
 	Slug:   "honduras",
@@ -1412,7 +1412,7 @@ var HN = &Country{
 	Area:   112492,
 }
 
-// HR contains the data for Croatia
+// HR contains data for Croatia
 var HR = &Country{
 	Name:   "Croatia",
 	Slug:   "croatia",
@@ -1427,7 +1427,7 @@ var HR = &Country{
 	Area:   56594,
 }
 
-// HT contains the data for Haiti
+// HT contains data for Haiti
 var HT = &Country{
 	Name:   "Haiti",
 	Slug:   "haiti",
@@ -1442,7 +1442,7 @@ var HT = &Country{
 	Area:   27750,
 }
 
-// HU contains the data for Hungary
+// HU contains data for Hungary
 var HU = &Country{
 	Name:   "Hungary",
 	Slug:   "hungary",
@@ -1457,7 +1457,7 @@ var HU = &Country{
 	Area:   93030,
 }
 
-// ID contains the data for Indonesia
+// ID contains data for Indonesia
 var ID = &Country{
 	Name:   "Indonesia",
 	Slug:   "indonesia",
@@ -1472,7 +1472,7 @@ var ID = &Country{
 	Area:   1904569,
 }
 
-// IE contains the data for Irland
+// IE contains data for Irland
 var IE = &Country{
 	Name:   "Irland",
 	Slug:   "irland",
@@ -1487,7 +1487,7 @@ var IE = &Country{
 	Area:   70273,
 }
 
-// IL contains the data for Israel
+// IL contains data for Israel
 var IL = &Country{
 	Name:   "Israel",
 	Slug:   "israel",
@@ -1502,8 +1502,8 @@ var IL = &Country{
 	Area:   20770,
 }
 
-// IM contains the data for Isle of Man
-var IM = &Country{
+// IM contains data for the territory Isle of Man
+var IM = &Territory{
 	Name:   "Isle of Man",
 	Slug:   "isle-of-man",
 	Key:    "im",
@@ -1517,7 +1517,7 @@ var IM = &Country{
 	Area:   -1,
 }
 
-// IN contains the data for India
+// IN contains data for India
 var IN = &Country{
 	Name:   "India",
 	Slug:   "india",
@@ -1532,8 +1532,8 @@ var IN = &Country{
 	Area:   3287240,
 }
 
-// IO contains the data for British Indian Ocean Territory
-var IO = &Country{
+// IO contains data for the territory British Indian Ocean Territory
+var IO = &Territory{
 	Name:   "British Indian Ocean Territory",
 	Slug:   "british-indian-ocean-territory",
 	Key:    "io",
@@ -1547,7 +1547,7 @@ var IO = &Country{
 	Area:   -1,
 }
 
-// IQ contains the data for Iraq
+// IQ contains data for Iraq
 var IQ = &Country{
 	Name:   "Iraq",
 	Slug:   "iraq",
@@ -1562,7 +1562,7 @@ var IQ = &Country{
 	Area:   438317,
 }
 
-// IR contains the data for Iran
+// IR contains data for Iran
 var IR = &Country{
 	Name:   "Iran",
 	Slug:   "iran",
@@ -1577,7 +1577,7 @@ var IR = &Country{
 	Area:   1648195,
 }
 
-// IS contains the data for Iceland
+// IS contains data for Iceland
 var IS = &Country{
 	Name:   "Iceland",
 	Slug:   "iceland",
@@ -1592,7 +1592,7 @@ var IS = &Country{
 	Area:   103000,
 }
 
-// IT contains the data for Italy
+// IT contains data for Italy
 var IT = &Country{
 	Name:   "Italy",
 	Slug:   "italy",
@@ -1607,8 +1607,8 @@ var IT = &Country{
 	Area:   301318,
 }
 
-// JE contains the data for Jersey
-var JE = &Country{
+// JE contains data for the territory Jersey
+var JE = &Territory{
 	Name:   "Jersey",
 	Slug:   "jersey",
 	Key:    "je",
@@ -1622,7 +1622,7 @@ var JE = &Country{
 	Area:   -1,
 }
 
-// JM contains the data for Jamaica
+// JM contains data for Jamaica
 var JM = &Country{
 	Name:   "Jamaica",
 	Slug:   "jamaica",
@@ -1637,7 +1637,7 @@ var JM = &Country{
 	Area:   10991,
 }
 
-// JO contains the data for Jordan
+// JO contains data for Jordan
 var JO = &Country{
 	Name:   "Jordan",
 	Slug:   "jordan",
@@ -1652,7 +1652,7 @@ var JO = &Country{
 	Area:   89342,
 }
 
-// JP contains the data for Japan
+// JP contains data for Japan
 var JP = &Country{
 	Name:   "Japan",
 	Slug:   "japan",
@@ -1667,7 +1667,7 @@ var JP = &Country{
 	Area:   377930,
 }
 
-// KE contains the data for Kenya
+// KE contains data for Kenya
 var KE = &Country{
 	Name:   "Kenya",
 	Slug:   "kenya",
@@ -1682,7 +1682,7 @@ var KE = &Country{
 	Area:   580367,
 }
 
-// KG contains the data for Kyrgyzstan
+// KG contains data for Kyrgyzstan
 var KG = &Country{
 	Name:   "Kyrgyzstan",
 	Slug:   "kyrgyzstan",
@@ -1697,7 +1697,7 @@ var KG = &Country{
 	Area:   199900,
 }
 
-// KH contains the data for Cambodia
+// KH contains data for Cambodia
 var KH = &Country{
 	Name:   "Cambodia",
 	Slug:   "cambodia",
@@ -1712,7 +1712,7 @@ var KH = &Country{
 	Area:   181035,
 }
 
-// KI contains the data for Kiribati
+// KI contains data for Kiribati
 var KI = &Country{
 	Name:   "Kiribati",
 	Slug:   "kiribati",
@@ -1727,7 +1727,7 @@ var KI = &Country{
 	Area:   811,
 }
 
-// KM contains the data for Comoros
+// KM contains data for Comoros
 var KM = &Country{
 	Name:   "Comoros",
 	Slug:   "comoros",
@@ -1742,7 +1742,7 @@ var KM = &Country{
 	Area:   2235,
 }
 
-// KN contains the data for Saint Kitts and Nevis
+// KN contains data for Saint Kitts and Nevis
 var KN = &Country{
 	Name:   "Saint Kitts and Nevis",
 	Slug:   "saint-kitts-and-nevis",
@@ -1757,7 +1757,7 @@ var KN = &Country{
 	Area:   261,
 }
 
-// KP contains the data for North Korea
+// KP contains data for North Korea
 var KP = &Country{
 	Name:   "North Korea",
 	Slug:   "north-korea",
@@ -1772,7 +1772,7 @@ var KP = &Country{
 	Area:   120538,
 }
 
-// KR contains the data for South Korea
+// KR contains data for South Korea
 var KR = &Country{
 	Name:   "South Korea",
 	Slug:   "south-korea",
@@ -1787,7 +1787,7 @@ var KR = &Country{
 	Area:   99828,
 }
 
-// KW contains the data for Kuwait
+// KW contains data for Kuwait
 var KW = &Country{
 	Name:   "Kuwait",
 	Slug:   "kuwait",
@@ -1802,8 +1802,8 @@ var KW = &Country{
 	Area:   17820,
 }
 
-// KY contains the data for Cayman Islands
-var KY = &Country{
+// KY contains data for the territory Cayman Islands
+var KY = &Territory{
 	Name:   "Cayman Islands",
 	Slug:   "cayman-islands",
 	Key:    "ky",
@@ -1817,7 +1817,7 @@ var KY = &Country{
 	Area:   -1,
 }
 
-// KZ contains the data for Kazakhstan
+// KZ contains data for Kazakhstan
 var KZ = &Country{
 	Name:   "Kazakhstan",
 	Slug:   "kazakhstan",
@@ -1832,7 +1832,7 @@ var KZ = &Country{
 	Area:   2724900,
 }
 
-// LA contains the data for Laos
+// LA contains data for Laos
 var LA = &Country{
 	Name:   "Laos",
 	Slug:   "laos",
@@ -1847,7 +1847,7 @@ var LA = &Country{
 	Area:   236800,
 }
 
-// LB contains the data for Lebanon
+// LB contains data for Lebanon
 var LB = &Country{
 	Name:   "Lebanon",
 	Slug:   "lebanon",
@@ -1862,7 +1862,7 @@ var LB = &Country{
 	Area:   10452,
 }
 
-// LC contains the data for Saint Lucia
+// LC contains data for Saint Lucia
 var LC = &Country{
 	Name:   "Saint Lucia",
 	Slug:   "saint-lucia",
@@ -1877,7 +1877,7 @@ var LC = &Country{
 	Area:   617,
 }
 
-// LI contains the data for Liechtenstein
+// LI contains data for Liechtenstein
 var LI = &Country{
 	Name:   "Liechtenstein",
 	Slug:   "liechtenstein",
@@ -1892,7 +1892,7 @@ var LI = &Country{
 	Area:   160,
 }
 
-// LK contains the data for Sri Lanka
+// LK contains data for Sri Lanka
 var LK = &Country{
 	Name:   "Sri Lanka",
 	Slug:   "sri-lanka",
@@ -1907,7 +1907,7 @@ var LK = &Country{
 	Area:   65610,
 }
 
-// LR contains the data for Liberia
+// LR contains data for Liberia
 var LR = &Country{
 	Name:   "Liberia",
 	Slug:   "liberia",
@@ -1922,7 +1922,7 @@ var LR = &Country{
 	Area:   111369,
 }
 
-// LS contains the data for Lesotho
+// LS contains data for Lesotho
 var LS = &Country{
 	Name:   "Lesotho",
 	Slug:   "lesotho",
@@ -1937,7 +1937,7 @@ var LS = &Country{
 	Area:   30355,
 }
 
-// LT contains the data for Lithuania
+// LT contains data for Lithuania
 var LT = &Country{
 	Name:   "Lithuania",
 	Slug:   "lithuania",
@@ -1952,7 +1952,7 @@ var LT = &Country{
 	Area:   65303,
 }
 
-// LU contains the data for Luxembourg
+// LU contains data for Luxembourg
 var LU = &Country{
 	Name:   "Luxembourg",
 	Slug:   "luxembourg",
@@ -1967,7 +1967,7 @@ var LU = &Country{
 	Area:   2586,
 }
 
-// LV contains the data for Latvija [Latvia]
+// LV contains data for Latvija [Latvia]
 var LV = &Country{
 	Name:   "Latvija [Latvia]",
 	Slug:   "latvija",
@@ -1982,7 +1982,7 @@ var LV = &Country{
 	Area:   64589,
 }
 
-// LY contains the data for Libya
+// LY contains data for Libya
 var LY = &Country{
 	Name:   "Libya",
 	Slug:   "libya",
@@ -1997,7 +1997,7 @@ var LY = &Country{
 	Area:   1759540,
 }
 
-// MA contains the data for Morocco
+// MA contains data for Morocco
 var MA = &Country{
 	Name:   "Morocco",
 	Slug:   "morocco",
@@ -2012,7 +2012,7 @@ var MA = &Country{
 	Area:   446550,
 }
 
-// MC contains the data for Monaco
+// MC contains data for Monaco
 var MC = &Country{
 	Name:   "Monaco",
 	Slug:   "monaco",
@@ -2027,7 +2027,7 @@ var MC = &Country{
 	Area:   2,
 }
 
-// MD contains the data for Moldova
+// MD contains data for Moldova
 var MD = &Country{
 	Name:   "Moldova",
 	Slug:   "moldova",
@@ -2042,7 +2042,7 @@ var MD = &Country{
 	Area:   33846,
 }
 
-// ME contains the data for Montenegro
+// ME contains data for Montenegro
 var ME = &Country{
 	Name:   "Montenegro",
 	Slug:   "montenegro",
@@ -2057,8 +2057,8 @@ var ME = &Country{
 	Area:   13812,
 }
 
-// MF contains the data for Saint Martin (French)
-var MF = &Country{
+// MF contains data for the territory Saint Martin (French)
+var MF = &Territory{
 	Name:   "Saint Martin (French)",
 	Slug:   "saint-martin-french",
 	Key:    "mf",
@@ -2072,7 +2072,7 @@ var MF = &Country{
 	Area:   -1,
 }
 
-// MG contains the data for Madagascar
+// MG contains data for Madagascar
 var MG = &Country{
 	Name:   "Madagascar",
 	Slug:   "madagascar",
@@ -2087,7 +2087,7 @@ var MG = &Country{
 	Area:   587041,
 }
 
-// MH contains the data for Marshall Islands
+// MH contains data for Marshall Islands
 var MH = &Country{
 	Name:   "Marshall Islands",
 	Slug:   "marshall-islands",
@@ -2102,7 +2102,7 @@ var MH = &Country{
 	Area:   181,
 }
 
-// MK contains the data for Macedonia
+// MK contains data for Macedonia
 var MK = &Country{
 	Name:   "Macedonia",
 	Slug:   "macedonia",
@@ -2117,7 +2117,7 @@ var MK = &Country{
 	Area:   25713,
 }
 
-// ML contains the data for Mali
+// ML contains data for Mali
 var ML = &Country{
 	Name:   "Mali",
 	Slug:   "mali",
@@ -2132,7 +2132,7 @@ var ML = &Country{
 	Area:   1240192,
 }
 
-// MM contains the data for Myanmar
+// MM contains data for Myanmar
 var MM = &Country{
 	Name:   "Myanmar",
 	Slug:   "myanmar",
@@ -2147,7 +2147,7 @@ var MM = &Country{
 	Area:   676578,
 }
 
-// MN contains the data for Mongolia
+// MN contains data for Mongolia
 var MN = &Country{
 	Name:   "Mongolia",
 	Slug:   "mongolia",
@@ -2162,8 +2162,8 @@ var MN = &Country{
 	Area:   1564116,
 }
 
-// MO contains the data for Macau
-var MO = &Country{
+// MO contains data for the territory Macau
+var MO = &Territory{
 	Name:   "Macau",
 	Slug:   "macau",
 	Key:    "mo",
@@ -2177,8 +2177,8 @@ var MO = &Country{
 	Area:   -1,
 }
 
-// MP contains the data for Northern Mariana Islands
-var MP = &Country{
+// MP contains data for the territory Northern Mariana Islands
+var MP = &Territory{
 	Name:   "Northern Mariana Islands",
 	Slug:   "northern-mariana-islands",
 	Key:    "mp",
@@ -2192,8 +2192,8 @@ var MP = &Country{
 	Area:   -1,
 }
 
-// MQ contains the data for Martinique
-var MQ = &Country{
+// MQ contains data for the territory Martinique
+var MQ = &Territory{
 	Name:   "Martinique",
 	Slug:   "martinique",
 	Key:    "mq",
@@ -2207,7 +2207,7 @@ var MQ = &Country{
 	Area:   -1,
 }
 
-// MR contains the data for Mauritania
+// MR contains data for Mauritania
 var MR = &Country{
 	Name:   "Mauritania",
 	Slug:   "mauritania",
@@ -2222,8 +2222,8 @@ var MR = &Country{
 	Area:   1030700,
 }
 
-// MS contains the data for Montserrat
-var MS = &Country{
+// MS contains data for the territory Montserrat
+var MS = &Territory{
 	Name:   "Montserrat",
 	Slug:   "montserrat",
 	Key:    "ms",
@@ -2237,7 +2237,7 @@ var MS = &Country{
 	Area:   -1,
 }
 
-// MT contains the data for Malta
+// MT contains data for Malta
 var MT = &Country{
 	Name:   "Malta",
 	Slug:   "malta",
@@ -2252,7 +2252,7 @@ var MT = &Country{
 	Area:   316,
 }
 
-// MU contains the data for Mauritius
+// MU contains data for Mauritius
 var MU = &Country{
 	Name:   "Mauritius",
 	Slug:   "mauritius",
@@ -2267,7 +2267,7 @@ var MU = &Country{
 	Area:   2040,
 }
 
-// MV contains the data for Maldives
+// MV contains data for Maldives
 var MV = &Country{
 	Name:   "Maldives",
 	Slug:   "maldives",
@@ -2282,7 +2282,7 @@ var MV = &Country{
 	Area:   298,
 }
 
-// MW contains the data for Malawi
+// MW contains data for Malawi
 var MW = &Country{
 	Name:   "Malawi",
 	Slug:   "malawi",
@@ -2297,7 +2297,7 @@ var MW = &Country{
 	Area:   118484,
 }
 
-// MX contains the data for México [Mexico]
+// MX contains data for México [Mexico]
 var MX = &Country{
 	Name:   "México [Mexico]",
 	Slug:   "mexico",
@@ -2312,7 +2312,7 @@ var MX = &Country{
 	Area:   1972550,
 }
 
-// MY contains the data for Malaysia
+// MY contains data for Malaysia
 var MY = &Country{
 	Name:   "Malaysia",
 	Slug:   "malaysia",
@@ -2327,7 +2327,7 @@ var MY = &Country{
 	Area:   329847,
 }
 
-// MZ contains the data for Mozambique
+// MZ contains data for Mozambique
 var MZ = &Country{
 	Name:   "Mozambique",
 	Slug:   "mozambique",
@@ -2342,7 +2342,7 @@ var MZ = &Country{
 	Area:   801590,
 }
 
-// NA contains the data for Namibia
+// NA contains data for Namibia
 var NA = &Country{
 	Name:   "Namibia",
 	Slug:   "namibia",
@@ -2357,8 +2357,8 @@ var NA = &Country{
 	Area:   825418,
 }
 
-// NC contains the data for New Caledonia
-var NC = &Country{
+// NC contains data for the territory New Caledonia
+var NC = &Territory{
 	Name:   "New Caledonia",
 	Slug:   "new-caledonia",
 	Key:    "nc",
@@ -2372,8 +2372,8 @@ var NC = &Country{
 	Area:   -1,
 }
 
-// ND contains the data for Northern Ireland
-var ND = &Country{
+// ND contains data for the territory Northern Ireland
+var ND = &Territory{
 	Name:   "Northern Ireland",
 	Slug:   "northern-ireland",
 	Key:    "nd",
@@ -2387,7 +2387,7 @@ var ND = &Country{
 	Area:   13843,
 }
 
-// NE contains the data for Niger
+// NE contains data for Niger
 var NE = &Country{
 	Name:   "Niger",
 	Slug:   "niger",
@@ -2402,8 +2402,8 @@ var NE = &Country{
 	Area:   1267000,
 }
 
-// NF contains the data for Norfolk Island
-var NF = &Country{
+// NF contains data for the territory Norfolk Island
+var NF = &Territory{
 	Name:   "Norfolk Island",
 	Slug:   "norfolk-island",
 	Key:    "nf",
@@ -2417,7 +2417,7 @@ var NF = &Country{
 	Area:   -1,
 }
 
-// NG contains the data for Nigeria
+// NG contains data for Nigeria
 var NG = &Country{
 	Name:   "Nigeria",
 	Slug:   "nigeria",
@@ -2432,7 +2432,7 @@ var NG = &Country{
 	Area:   923768,
 }
 
-// NI contains the data for Nicaragua
+// NI contains data for Nicaragua
 var NI = &Country{
 	Name:   "Nicaragua",
 	Slug:   "nicaragua",
@@ -2447,7 +2447,7 @@ var NI = &Country{
 	Area:   130373,
 }
 
-// NL contains the data for Netherlands
+// NL contains data for Netherlands
 var NL = &Country{
 	Name:   "Netherlands",
 	Slug:   "netherlands",
@@ -2462,7 +2462,7 @@ var NL = &Country{
 	Area:   41526,
 }
 
-// NO contains the data for Norway
+// NO contains data for Norway
 var NO = &Country{
 	Name:   "Norway",
 	Slug:   "norway",
@@ -2477,7 +2477,7 @@ var NO = &Country{
 	Area:   385155,
 }
 
-// NP contains the data for Nepal
+// NP contains data for Nepal
 var NP = &Country{
 	Name:   "Nepal",
 	Slug:   "nepal",
@@ -2492,7 +2492,7 @@ var NP = &Country{
 	Area:   147181,
 }
 
-// NR contains the data for Nauru
+// NR contains data for Nauru
 var NR = &Country{
 	Name:   "Nauru",
 	Slug:   "nauru",
@@ -2507,8 +2507,8 @@ var NR = &Country{
 	Area:   21,
 }
 
-// NU contains the data for Niue
-var NU = &Country{
+// NU contains data for the territory Niue
+var NU = &Territory{
 	Name:   "Niue",
 	Slug:   "niue",
 	Key:    "nu",
@@ -2522,7 +2522,7 @@ var NU = &Country{
 	Area:   -1,
 }
 
-// NZ contains the data for New Zealand
+// NZ contains data for New Zealand
 var NZ = &Country{
 	Name:   "New Zealand",
 	Slug:   "new-zealand",
@@ -2537,7 +2537,7 @@ var NZ = &Country{
 	Area:   268680,
 }
 
-// OM contains the data for Oman
+// OM contains data for Oman
 var OM = &Country{
 	Name:   "Oman",
 	Slug:   "oman",
@@ -2552,7 +2552,7 @@ var OM = &Country{
 	Area:   309501,
 }
 
-// PA contains the data for Panamá [Panama]
+// PA contains data for Panamá [Panama]
 var PA = &Country{
 	Name:   "Panamá [Panama]",
 	Slug:   "panama",
@@ -2567,7 +2567,7 @@ var PA = &Country{
 	Area:   75417,
 }
 
-// PE contains the data for Peru
+// PE contains data for Peru
 var PE = &Country{
 	Name:   "Peru",
 	Slug:   "peru",
@@ -2582,8 +2582,8 @@ var PE = &Country{
 	Area:   1285220,
 }
 
-// PF contains the data for Tahiti
-var PF = &Country{
+// PF contains data for the territory Tahiti
+var PF = &Territory{
 	Name:   "Tahiti",
 	Slug:   "tahiti",
 	Key:    "pf",
@@ -2597,7 +2597,7 @@ var PF = &Country{
 	Area:   -1,
 }
 
-// PG contains the data for Papua New Guinea
+// PG contains data for Papua New Guinea
 var PG = &Country{
 	Name:   "Papua New Guinea",
 	Slug:   "papua-new-guinea",
@@ -2612,7 +2612,7 @@ var PG = &Country{
 	Area:   462840,
 }
 
-// PH contains the data for Philippines
+// PH contains data for Philippines
 var PH = &Country{
 	Name:   "Philippines",
 	Slug:   "philippines",
@@ -2627,7 +2627,7 @@ var PH = &Country{
 	Area:   300000,
 }
 
-// PK contains the data for Pakistan
+// PK contains data for Pakistan
 var PK = &Country{
 	Name:   "Pakistan",
 	Slug:   "pakistan",
@@ -2642,7 +2642,7 @@ var PK = &Country{
 	Area:   796095,
 }
 
-// PL contains the data for Poland
+// PL contains data for Poland
 var PL = &Country{
 	Name:   "Poland",
 	Slug:   "poland",
@@ -2657,8 +2657,8 @@ var PL = &Country{
 	Area:   312683,
 }
 
-// PM contains the data for Saint Pierre and Miquelon
-var PM = &Country{
+// PM contains data for the territory Saint Pierre and Miquelon
+var PM = &Territory{
 	Name:   "Saint Pierre and Miquelon",
 	Slug:   "saint-pierre-and-miquelon",
 	Key:    "pm",
@@ -2672,8 +2672,8 @@ var PM = &Country{
 	Area:   -1,
 }
 
-// PN contains the data for Pitcairn Islands
-var PN = &Country{
+// PN contains data for the territory Pitcairn Islands
+var PN = &Territory{
 	Name:   "Pitcairn Islands",
 	Slug:   "pitcairn-islands",
 	Key:    "pn",
@@ -2687,8 +2687,8 @@ var PN = &Country{
 	Area:   -1,
 }
 
-// PR contains the data for Puerto Rico
-var PR = &Country{
+// PR contains data for the territory Puerto Rico
+var PR = &Territory{
 	Name:   "Puerto Rico",
 	Slug:   "puerto-rico",
 	Key:    "pr",
@@ -2702,7 +2702,7 @@ var PR = &Country{
 	Area:   8870,
 }
 
-// PS contains the data for Palestine
+// PS contains data for Palestine
 var PS = &Country{
 	Name:   "Palestine",
 	Slug:   "palestine",
@@ -2717,7 +2717,7 @@ var PS = &Country{
 	Area:   6220,
 }
 
-// PT contains the data for Portugal
+// PT contains data for Portugal
 var PT = &Country{
 	Name:   "Portugal",
 	Slug:   "portugal",
@@ -2732,7 +2732,7 @@ var PT = &Country{
 	Area:   92391,
 }
 
-// PW contains the data for Palau
+// PW contains data for Palau
 var PW = &Country{
 	Name:   "Palau",
 	Slug:   "palau",
@@ -2747,7 +2747,7 @@ var PW = &Country{
 	Area:   459,
 }
 
-// PY contains the data for Paraguay
+// PY contains data for Paraguay
 var PY = &Country{
 	Name:   "Paraguay",
 	Slug:   "paraguay",
@@ -2762,7 +2762,7 @@ var PY = &Country{
 	Area:   406752,
 }
 
-// QA contains the data for Qatar
+// QA contains data for Qatar
 var QA = &Country{
 	Name:   "Qatar",
 	Slug:   "qatar",
@@ -2777,8 +2777,8 @@ var QA = &Country{
 	Area:   11571,
 }
 
-// RE contains the data for Réunion
-var RE = &Country{
+// RE contains data for the territory Réunion
+var RE = &Territory{
 	Name:   "Réunion",
 	Slug:   "reunion",
 	Key:    "re",
@@ -2792,7 +2792,7 @@ var RE = &Country{
 	Area:   -1,
 }
 
-// RO contains the data for Romania
+// RO contains data for Romania
 var RO = &Country{
 	Name:   "Romania",
 	Slug:   "romania",
@@ -2807,7 +2807,7 @@ var RO = &Country{
 	Area:   238391,
 }
 
-// RS contains the data for Serbia
+// RS contains data for Serbia
 var RS = &Country{
 	Name:   "Serbia",
 	Slug:   "serbia",
@@ -2822,7 +2822,7 @@ var RS = &Country{
 	Area:   88361,
 }
 
-// RU contains the data for Russia
+// RU contains data for Russia
 var RU = &Country{
 	Name:   "Russia",
 	Slug:   "russia",
@@ -2837,7 +2837,7 @@ var RU = &Country{
 	Area:   17098242,
 }
 
-// RW contains the data for Rwanda
+// RW contains data for Rwanda
 var RW = &Country{
 	Name:   "Rwanda",
 	Slug:   "rwanda",
@@ -2852,7 +2852,7 @@ var RW = &Country{
 	Area:   26338,
 }
 
-// SA contains the data for Saudi Arabia
+// SA contains data for Saudi Arabia
 var SA = &Country{
 	Name:   "Saudi Arabia",
 	Slug:   "saudi-arabia",
@@ -2867,7 +2867,7 @@ var SA = &Country{
 	Area:   1960582,
 }
 
-// SB contains the data for Solomon Islands
+// SB contains data for Solomon Islands
 var SB = &Country{
 	Name:   "Solomon Islands",
 	Slug:   "solomon-islands",
@@ -2882,8 +2882,8 @@ var SB = &Country{
 	Area:   28400,
 }
 
-// SC contains the data for Scotland
-var SC = &Country{
+// SC contains data for the territory Scotland
+var SC = &Territory{
 	Name:   "Scotland",
 	Slug:   "scotland",
 	Key:    "sc",
@@ -2897,7 +2897,7 @@ var SC = &Country{
 	Area:   78387,
 }
 
-// SD contains the data for Sudan
+// SD contains data for Sudan
 var SD = &Country{
 	Name:   "Sudan",
 	Slug:   "sudan",
@@ -2912,7 +2912,7 @@ var SD = &Country{
 	Area:   1886068,
 }
 
-// SE contains the data for Sweden
+// SE contains data for Sweden
 var SE = &Country{
 	Name:   "Sweden",
 	Slug:   "sweden",
@@ -2927,7 +2927,7 @@ var SE = &Country{
 	Area:   449964,
 }
 
-// SG contains the data for Singapore
+// SG contains data for Singapore
 var SG = &Country{
 	Name:   "Singapore",
 	Slug:   "singapore",
@@ -2942,8 +2942,8 @@ var SG = &Country{
 	Area:   724,
 }
 
-// SH contains the data for Saint Helena
-var SH = &Country{
+// SH contains data for the territory Saint Helena
+var SH = &Territory{
 	Name:   "Saint Helena",
 	Slug:   "saint-helena",
 	Key:    "sh",
@@ -2957,7 +2957,7 @@ var SH = &Country{
 	Area:   -1,
 }
 
-// SI contains the data for Slovenia
+// SI contains data for Slovenia
 var SI = &Country{
 	Name:   "Slovenia",
 	Slug:   "slovenia",
@@ -2972,7 +2972,7 @@ var SI = &Country{
 	Area:   20273,
 }
 
-// SK contains the data for Slovakia
+// SK contains data for Slovakia
 var SK = &Country{
 	Name:   "Slovakia",
 	Slug:   "slovakia",
@@ -2987,7 +2987,7 @@ var SK = &Country{
 	Area:   49037,
 }
 
-// SL contains the data for Sierra Leone
+// SL contains data for Sierra Leone
 var SL = &Country{
 	Name:   "Sierra Leone",
 	Slug:   "sierra-leone",
@@ -3002,7 +3002,7 @@ var SL = &Country{
 	Area:   71740,
 }
 
-// SM contains the data for San Marino
+// SM contains data for San Marino
 var SM = &Country{
 	Name:   "San Marino",
 	Slug:   "san-marino",
@@ -3017,7 +3017,7 @@ var SM = &Country{
 	Area:   61,
 }
 
-// SN contains the data for Senegal
+// SN contains data for Senegal
 var SN = &Country{
 	Name:   "Senegal",
 	Slug:   "senegal",
@@ -3032,7 +3032,7 @@ var SN = &Country{
 	Area:   196723,
 }
 
-// SO contains the data for Somalia
+// SO contains data for Somalia
 var SO = &Country{
 	Name:   "Somalia",
 	Slug:   "somalia",
@@ -3047,7 +3047,7 @@ var SO = &Country{
 	Area:   637657,
 }
 
-// SR contains the data for Suriname
+// SR contains data for Suriname
 var SR = &Country{
 	Name:   "Suriname",
 	Slug:   "suriname",
@@ -3062,7 +3062,7 @@ var SR = &Country{
 	Area:   163820,
 }
 
-// SS contains the data for South Sudan
+// SS contains data for South Sudan
 var SS = &Country{
 	Name:   "South Sudan",
 	Slug:   "south-sudan",
@@ -3077,7 +3077,7 @@ var SS = &Country{
 	Area:   619745,
 }
 
-// ST contains the data for São Tomé and Príncipe
+// ST contains data for São Tomé and Príncipe
 var ST = &Country{
 	Name:   "São Tomé and Príncipe",
 	Slug:   "sao-tome-and-principe",
@@ -3092,7 +3092,7 @@ var ST = &Country{
 	Area:   1001,
 }
 
-// SV contains the data for El Salvador
+// SV contains data for El Salvador
 var SV = &Country{
 	Name:   "El Salvador",
 	Slug:   "el-salvador",
@@ -3107,7 +3107,7 @@ var SV = &Country{
 	Area:   21041,
 }
 
-// SY contains the data for Syria
+// SY contains data for Syria
 var SY = &Country{
 	Name:   "Syria",
 	Slug:   "syria",
@@ -3122,7 +3122,7 @@ var SY = &Country{
 	Area:   185180,
 }
 
-// SZ contains the data for Swaziland
+// SZ contains data for Swaziland
 var SZ = &Country{
 	Name:   "Swaziland",
 	Slug:   "swaziland",
@@ -3137,8 +3137,8 @@ var SZ = &Country{
 	Area:   17364,
 }
 
-// TC contains the data for Turks and Caicos Islands
-var TC = &Country{
+// TC contains data for the territory Turks and Caicos Islands
+var TC = &Territory{
 	Name:   "Turks and Caicos Islands",
 	Slug:   "turks-and-caicos-islands",
 	Key:    "tc",
@@ -3152,7 +3152,7 @@ var TC = &Country{
 	Area:   -1,
 }
 
-// TD contains the data for Chad
+// TD contains data for Chad
 var TD = &Country{
 	Name:   "Chad",
 	Slug:   "chad",
@@ -3167,7 +3167,7 @@ var TD = &Country{
 	Area:   1284000,
 }
 
-// TG contains the data for Togo
+// TG contains data for Togo
 var TG = &Country{
 	Name:   "Togo",
 	Slug:   "togo",
@@ -3182,7 +3182,7 @@ var TG = &Country{
 	Area:   56785,
 }
 
-// TH contains the data for Thailand
+// TH contains data for Thailand
 var TH = &Country{
 	Name:   "Thailand",
 	Slug:   "thailand",
@@ -3197,7 +3197,7 @@ var TH = &Country{
 	Area:   513120,
 }
 
-// TJ contains the data for Tajikistan
+// TJ contains data for Tajikistan
 var TJ = &Country{
 	Name:   "Tajikistan",
 	Slug:   "tajikistan",
@@ -3212,8 +3212,8 @@ var TJ = &Country{
 	Area:   143100,
 }
 
-// TK contains the data for Tokelau
-var TK = &Country{
+// TK contains data for the territory Tokelau
+var TK = &Territory{
 	Name:   "Tokelau",
 	Slug:   "tokelau",
 	Key:    "tk",
@@ -3227,7 +3227,7 @@ var TK = &Country{
 	Area:   -1,
 }
 
-// TL contains the data for Timor-Leste [East Timor]
+// TL contains data for Timor-Leste [East Timor]
 var TL = &Country{
 	Name:   "Timor-Leste [East Timor]",
 	Slug:   "timor-leste",
@@ -3242,7 +3242,7 @@ var TL = &Country{
 	Area:   14874,
 }
 
-// TM contains the data for Turkmenistan
+// TM contains data for Turkmenistan
 var TM = &Country{
 	Name:   "Turkmenistan",
 	Slug:   "turkmenistan",
@@ -3257,7 +3257,7 @@ var TM = &Country{
 	Area:   491210,
 }
 
-// TN contains the data for Tunisia
+// TN contains data for Tunisia
 var TN = &Country{
 	Name:   "Tunisia",
 	Slug:   "tunisia",
@@ -3272,7 +3272,7 @@ var TN = &Country{
 	Area:   163610,
 }
 
-// TO contains the data for Tonga
+// TO contains data for Tonga
 var TO = &Country{
 	Name:   "Tonga",
 	Slug:   "tonga",
@@ -3287,7 +3287,7 @@ var TO = &Country{
 	Area:   748,
 }
 
-// TR contains the data for Turkey
+// TR contains data for Turkey
 var TR = &Country{
 	Name:   "Turkey",
 	Slug:   "turkey",
@@ -3302,7 +3302,7 @@ var TR = &Country{
 	Area:   783562,
 }
 
-// TT contains the data for Trinidad and Tobago
+// TT contains data for Trinidad and Tobago
 var TT = &Country{
 	Name:   "Trinidad and Tobago",
 	Slug:   "trinidad-and-tobago",
@@ -3317,7 +3317,7 @@ var TT = &Country{
 	Area:   5131,
 }
 
-// TV contains the data for Tuvalu
+// TV contains data for Tuvalu
 var TV = &Country{
 	Name:   "Tuvalu",
 	Slug:   "tuvalu",
@@ -3332,7 +3332,7 @@ var TV = &Country{
 	Area:   26,
 }
 
-// TW contains the data for Taiwan
+// TW contains data for Taiwan
 var TW = &Country{
 	Name:   "Taiwan",
 	Slug:   "taiwan",
@@ -3347,7 +3347,7 @@ var TW = &Country{
 	Area:   36188,
 }
 
-// TZ contains the data for Tanzania
+// TZ contains data for Tanzania
 var TZ = &Country{
 	Name:   "Tanzania",
 	Slug:   "tanzania",
@@ -3362,7 +3362,7 @@ var TZ = &Country{
 	Area:   945203,
 }
 
-// UA contains the data for Ukraine
+// UA contains data for Ukraine
 var UA = &Country{
 	Name:   "Ukraine",
 	Slug:   "ukraine",
@@ -3377,7 +3377,7 @@ var UA = &Country{
 	Area:   603550,
 }
 
-// UG contains the data for Uganda
+// UG contains data for Uganda
 var UG = &Country{
 	Name:   "Uganda",
 	Slug:   "uganda",
@@ -3392,7 +3392,7 @@ var UG = &Country{
 	Area:   236040,
 }
 
-// US contains the data for United States
+// US contains data for United States
 var US = &Country{
 	Name:   "United States",
 	Slug:   "united-states",
@@ -3407,7 +3407,7 @@ var US = &Country{
 	Area:   9629091,
 }
 
-// UY contains the data for Uruguay
+// UY contains data for Uruguay
 var UY = &Country{
 	Name:   "Uruguay",
 	Slug:   "uruguay",
@@ -3422,7 +3422,7 @@ var UY = &Country{
 	Area:   176215,
 }
 
-// UZ contains the data for Uzbekistan
+// UZ contains data for Uzbekistan
 var UZ = &Country{
 	Name:   "Uzbekistan",
 	Slug:   "uzbekistan",
@@ -3437,7 +3437,7 @@ var UZ = &Country{
 	Area:   447400,
 }
 
-// VA contains the data for Vatican City
+// VA contains data for Vatican City
 var VA = &Country{
 	Name:   "Vatican City",
 	Slug:   "vatican-city",
@@ -3452,7 +3452,7 @@ var VA = &Country{
 	Area:   1,
 }
 
-// VC contains the data for Saint Vincent and the Grenadines
+// VC contains data for Saint Vincent and the Grenadines
 var VC = &Country{
 	Name:   "Saint Vincent and the Grenadines",
 	Slug:   "saint-vincent-and-the-grenadines",
@@ -3467,7 +3467,7 @@ var VC = &Country{
 	Area:   389,
 }
 
-// VE contains the data for Venezuela
+// VE contains data for Venezuela
 var VE = &Country{
 	Name:   "Venezuela",
 	Slug:   "venezuela",
@@ -3482,8 +3482,8 @@ var VE = &Country{
 	Area:   916445,
 }
 
-// VG contains the data for British Virgin Islands
-var VG = &Country{
+// VG contains data for the territory British Virgin Islands
+var VG = &Territory{
 	Name:   "British Virgin Islands",
 	Slug:   "british-virgin-islands",
 	Key:    "vg",
@@ -3497,8 +3497,8 @@ var VG = &Country{
 	Area:   -1,
 }
 
-// VI contains the data for United States Virgin Islands
-var VI = &Country{
+// VI contains data for the territory United States Virgin Islands
+var VI = &Territory{
 	Name:   "United States Virgin Islands",
 	Slug:   "united-states-virgin-islands",
 	Key:    "vi",
@@ -3512,7 +3512,7 @@ var VI = &Country{
 	Area:   -1,
 }
 
-// VN contains the data for Vietnam
+// VN contains data for Vietnam
 var VN = &Country{
 	Name:   "Vietnam",
 	Slug:   "vietnam",
@@ -3527,7 +3527,7 @@ var VN = &Country{
 	Area:   331210,
 }
 
-// VU contains the data for Vanuatu
+// VU contains data for Vanuatu
 var VU = &Country{
 	Name:   "Vanuatu",
 	Slug:   "vanuatu",
@@ -3542,8 +3542,8 @@ var VU = &Country{
 	Area:   12190,
 }
 
-// WA contains the data for Wales
-var WA = &Country{
+// WA contains data for the territory Wales
+var WA = &Territory{
 	Name:   "Wales",
 	Slug:   "wales",
 	Key:    "wa",
@@ -3557,8 +3557,8 @@ var WA = &Country{
 	Area:   20779,
 }
 
-// WF contains the data for Wallis and Futuna
-var WF = &Country{
+// WF contains data for the territory Wallis and Futuna
+var WF = &Territory{
 	Name:   "Wallis and Futuna",
 	Slug:   "wallis-and-futuna",
 	Key:    "wf",
@@ -3572,7 +3572,7 @@ var WF = &Country{
 	Area:   -1,
 }
 
-// WS contains the data for Samoa
+// WS contains data for Samoa
 var WS = &Country{
 	Name:   "Samoa",
 	Slug:   "samoa",
@@ -3587,7 +3587,7 @@ var WS = &Country{
 	Area:   2831,
 }
 
-// YC contains the data for Seychelles
+// YC contains data for Seychelles
 var YC = &Country{
 	Name:   "Seychelles",
 	Slug:   "seychelles",
@@ -3602,7 +3602,7 @@ var YC = &Country{
 	Area:   451,
 }
 
-// YE contains the data for Yemen
+// YE contains data for Yemen
 var YE = &Country{
 	Name:   "Yemen",
 	Slug:   "yemen",
@@ -3617,8 +3617,8 @@ var YE = &Country{
 	Area:   527829,
 }
 
-// YT contains the data for Mayotte
-var YT = &Country{
+// YT contains data for the territory Mayotte
+var YT = &Territory{
 	Name:   "Mayotte",
 	Slug:   "mayotte",
 	Key:    "yt",
@@ -3632,7 +3632,7 @@ var YT = &Country{
 	Area:   -1,
 }
 
-// ZA contains the data for South Africa
+// ZA contains data for South Africa
 var ZA = &Country{
 	Name:   "South Africa",
 	Slug:   "south-africa",
@@ -3647,7 +3647,7 @@ var ZA = &Country{
 	Area:   1219912,
 }
 
-// ZM contains the data for Zambia
+// ZM contains data for Zambia
 var ZM = &Country{
 	Name:   "Zambia",
 	Slug:   "zambia",
@@ -3662,7 +3662,7 @@ var ZM = &Country{
 	Area:   752618,
 }
 
-// ZW contains the data for Zimbabwe
+// ZW contains data for Zimbabwe
 var ZW = &Country{
 	Name:   "Zimbabwe",
 	Slug:   "zimbabwe",
@@ -3683,16 +3683,12 @@ func init() {
 	Countries["AE"] = AE
 	Countries["AF"] = AF
 	Countries["AG"] = AG
-	Countries["AI"] = AI
 	Countries["AL"] = AL
 	Countries["AM"] = AM
 	Countries["AO"] = AO
 	Countries["AR"] = AR
-	Countries["AS"] = AS
 	Countries["AT"] = AT
 	Countries["AU"] = AU
-	Countries["AW"] = AW
-	Countries["AX"] = AX
 	Countries["AZ"] = AZ
 	Countries["BA"] = BA
 	Countries["BB"] = BB
@@ -3703,8 +3699,6 @@ func init() {
 	Countries["BH"] = BH
 	Countries["BI"] = BI
 	Countries["BJ"] = BJ
-	Countries["BL"] = BL
-	Countries["BM"] = BM
 	Countries["BN"] = BN
 	Countries["BO"] = BO
 	Countries["BR"] = BR
@@ -3714,13 +3708,11 @@ func init() {
 	Countries["BY"] = BY
 	Countries["BZ"] = BZ
 	Countries["CA"] = CA
-	Countries["CC"] = CC
 	Countries["CD"] = CD
 	Countries["CF"] = CF
 	Countries["CG"] = CG
 	Countries["CH"] = CH
 	Countries["CI"] = CI
-	Countries["CK"] = CK
 	Countries["CL"] = CL
 	Countries["CM"] = CM
 	Countries["CN"] = CN
@@ -3728,8 +3720,6 @@ func init() {
 	Countries["CR"] = CR
 	Countries["CU"] = CU
 	Countries["CV"] = CV
-	Countries["CW"] = CW
-	Countries["CX"] = CX
 	Countries["CY"] = CY
 	Countries["CZ"] = CZ
 	Countries["DE"] = DE
@@ -3741,37 +3731,25 @@ func init() {
 	Countries["EC"] = EC
 	Countries["EE"] = EE
 	Countries["EG"] = EG
-	Countries["EN"] = EN
 	Countries["ER"] = ER
 	Countries["ES"] = ES
 	Countries["ET"] = ET
-	Countries["EU"] = EU
 	Countries["FI"] = FI
 	Countries["FJ"] = FJ
-	Countries["FK"] = FK
 	Countries["FM"] = FM
-	Countries["FO"] = FO
 	Countries["FR"] = FR
 	Countries["GA"] = GA
 	Countries["GB"] = GB
 	Countries["GD"] = GD
 	Countries["GE"] = GE
-	Countries["GF"] = GF
-	Countries["GG"] = GG
 	Countries["GH"] = GH
-	Countries["GI"] = GI
-	Countries["GL"] = GL
 	Countries["GM"] = GM
 	Countries["GN"] = GN
-	Countries["GP"] = GP
 	Countries["GQ"] = GQ
 	Countries["GR"] = GR
-	Countries["GS"] = GS
 	Countries["GT"] = GT
-	Countries["GU"] = GU
 	Countries["GW"] = GW
 	Countries["GY"] = GY
-	Countries["HK"] = HK
 	Countries["HN"] = HN
 	Countries["HR"] = HR
 	Countries["HT"] = HT
@@ -3779,14 +3757,11 @@ func init() {
 	Countries["ID"] = ID
 	Countries["IE"] = IE
 	Countries["IL"] = IL
-	Countries["IM"] = IM
 	Countries["IN"] = IN
-	Countries["IO"] = IO
 	Countries["IQ"] = IQ
 	Countries["IR"] = IR
 	Countries["IS"] = IS
 	Countries["IT"] = IT
-	Countries["JE"] = JE
 	Countries["JM"] = JM
 	Countries["JO"] = JO
 	Countries["JP"] = JP
@@ -3799,7 +3774,6 @@ func init() {
 	Countries["KP"] = KP
 	Countries["KR"] = KR
 	Countries["KW"] = KW
-	Countries["KY"] = KY
 	Countries["KZ"] = KZ
 	Countries["LA"] = LA
 	Countries["LB"] = LB
@@ -3816,18 +3790,13 @@ func init() {
 	Countries["MC"] = MC
 	Countries["MD"] = MD
 	Countries["ME"] = ME
-	Countries["MF"] = MF
 	Countries["MG"] = MG
 	Countries["MH"] = MH
 	Countries["MK"] = MK
 	Countries["ML"] = ML
 	Countries["MM"] = MM
 	Countries["MN"] = MN
-	Countries["MO"] = MO
-	Countries["MP"] = MP
-	Countries["MQ"] = MQ
 	Countries["MR"] = MR
-	Countries["MS"] = MS
 	Countries["MT"] = MT
 	Countries["MU"] = MU
 	Countries["MV"] = MV
@@ -3836,46 +3805,35 @@ func init() {
 	Countries["MY"] = MY
 	Countries["MZ"] = MZ
 	Countries["NA"] = NA
-	Countries["NC"] = NC
-	Countries["ND"] = ND
 	Countries["NE"] = NE
-	Countries["NF"] = NF
 	Countries["NG"] = NG
 	Countries["NI"] = NI
 	Countries["NL"] = NL
 	Countries["NO"] = NO
 	Countries["NP"] = NP
 	Countries["NR"] = NR
-	Countries["NU"] = NU
 	Countries["NZ"] = NZ
 	Countries["OM"] = OM
 	Countries["PA"] = PA
 	Countries["PE"] = PE
-	Countries["PF"] = PF
 	Countries["PG"] = PG
 	Countries["PH"] = PH
 	Countries["PK"] = PK
 	Countries["PL"] = PL
-	Countries["PM"] = PM
-	Countries["PN"] = PN
-	Countries["PR"] = PR
 	Countries["PS"] = PS
 	Countries["PT"] = PT
 	Countries["PW"] = PW
 	Countries["PY"] = PY
 	Countries["QA"] = QA
-	Countries["RE"] = RE
 	Countries["RO"] = RO
 	Countries["RS"] = RS
 	Countries["RU"] = RU
 	Countries["RW"] = RW
 	Countries["SA"] = SA
 	Countries["SB"] = SB
-	Countries["SC"] = SC
 	Countries["SD"] = SD
 	Countries["SE"] = SE
 	Countries["SG"] = SG
-	Countries["SH"] = SH
 	Countries["SI"] = SI
 	Countries["SK"] = SK
 	Countries["SL"] = SL
@@ -3888,12 +3846,10 @@ func init() {
 	Countries["SV"] = SV
 	Countries["SY"] = SY
 	Countries["SZ"] = SZ
-	Countries["TC"] = TC
 	Countries["TD"] = TD
 	Countries["TG"] = TG
 	Countries["TH"] = TH
 	Countries["TJ"] = TJ
-	Countries["TK"] = TK
 	Countries["TL"] = TL
 	Countries["TM"] = TM
 	Countries["TN"] = TN
@@ -3911,16 +3867,11 @@ func init() {
 	Countries["VA"] = VA
 	Countries["VC"] = VC
 	Countries["VE"] = VE
-	Countries["VG"] = VG
-	Countries["VI"] = VI
 	Countries["VN"] = VN
 	Countries["VU"] = VU
-	Countries["WA"] = WA
-	Countries["WF"] = WF
 	Countries["WS"] = WS
 	Countries["YC"] = YC
 	Countries["YE"] = YE
-	Countries["YT"] = YT
 	Countries["ZA"] = ZA
 	Countries["ZM"] = ZM
 	Countries["ZW"] = ZW
@@ -3941,11 +3892,8 @@ func init() {
 	Europe["DE"] = DE
 	Europe["DK"] = DK
 	Europe["EE"] = EE
-	Europe["EN"] = EN
 	Europe["ES"] = ES
-	Europe["EU"] = EU
 	Europe["FI"] = FI
-	Europe["FO"] = FO
 	Europe["FR"] = FR
 	Europe["GB"] = GB
 	Europe["GE"] = GE
@@ -3964,7 +3912,6 @@ func init() {
 	Europe["ME"] = ME
 	Europe["MK"] = MK
 	Europe["MT"] = MT
-	Europe["ND"] = ND
 	Europe["NL"] = NL
 	Europe["NO"] = NO
 	Europe["PL"] = PL
@@ -3972,7 +3919,6 @@ func init() {
 	Europe["RO"] = RO
 	Europe["RS"] = RS
 	Europe["RU"] = RU
-	Europe["SC"] = SC
 	Europe["SE"] = SE
 	Europe["SI"] = SI
 	Europe["SK"] = SK
@@ -3980,5 +3926,57 @@ func init() {
 	Europe["TR"] = TR
 	Europe["UA"] = UA
 	Europe["VA"] = VA
-	Europe["WA"] = WA
+
+	// Supranationals
+	Supranationals["EU"] = EU
+
+	// Territories
+	Territories["AI"] = AI
+	Territories["AS"] = AS
+	Territories["AW"] = AW
+	Territories["AX"] = AX
+	Territories["BL"] = BL
+	Territories["BM"] = BM
+	Territories["CC"] = CC
+	Territories["CK"] = CK
+	Territories["CW"] = CW
+	Territories["CX"] = CX
+	Territories["EN"] = EN
+	Territories["FK"] = FK
+	Territories["FO"] = FO
+	Territories["GF"] = GF
+	Territories["GG"] = GG
+	Territories["GI"] = GI
+	Territories["GL"] = GL
+	Territories["GP"] = GP
+	Territories["GS"] = GS
+	Territories["GU"] = GU
+	Territories["HK"] = HK
+	Territories["IM"] = IM
+	Territories["IO"] = IO
+	Territories["JE"] = JE
+	Territories["KY"] = KY
+	Territories["MF"] = MF
+	Territories["MO"] = MO
+	Territories["MP"] = MP
+	Territories["MQ"] = MQ
+	Territories["MS"] = MS
+	Territories["NC"] = NC
+	Territories["ND"] = ND
+	Territories["NF"] = NF
+	Territories["NU"] = NU
+	Territories["PF"] = PF
+	Territories["PM"] = PM
+	Territories["PN"] = PN
+	Territories["PR"] = PR
+	Territories["RE"] = RE
+	Territories["SC"] = SC
+	Territories["SH"] = SH
+	Territories["TC"] = TC
+	Territories["TK"] = TK
+	Territories["VG"] = VG
+	Territories["VI"] = VI
+	Territories["WA"] = WA
+	Territories["WF"] = WF
+	Territories["YT"] = YT
 }
