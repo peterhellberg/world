@@ -7,16 +7,12 @@ type Country struct {
 	Key    string // key (iso alpha2 if available - otherwise alpha3)
 	Code   string // country code
 	Motor  string // int'l vehicle registration code
-	Alpha2 string // iso alpha2 code e.g. AU
 	Alpha3 string // iso alpha3 code e.g. AUT
 	FIFA   string // FIFA (football) code
 	Net    string // internet top level domain (tld) e.g. at
 	Region string // region name
 	Pop    int    // population of the country
 	Area   int    // area of the country
-	UN     bool   // un (united nations) flag member (true|false)
-	EU     bool   // european union flag member (true|false)
-	EURO   bool   // euro (currency) flag member (true|false)
 }
 
 type Territory Country
