@@ -2,19 +2,6 @@ package world
 
 import "strings"
 
-var (
-	World             []*Country
-	WorldUN           []*Country
-	WorldISO          []*Country
-	WorldFIFA         []*Country
-	WorldG8           []*Country
-	WorldG20          []*Country
-	WorldCommonwealth []*Country
-	Europe            []*Country
-	EuropeEU          []*Country
-	EuropeEuro        []*Country
-)
-
 type Country struct {
 	Name          string // country name e.g. Austria
 	Key           string // key (iso alpha2 if available - otherwise alpha3)

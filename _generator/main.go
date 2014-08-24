@@ -42,6 +42,8 @@ func generateCountries(db *sql.DB, f *os.File) {
 	}
 	defer rows.Close()
 
+	keys := []string{}
+
 	for rows.Next() {
 		var (
 			name string
@@ -75,6 +77,8 @@ func generateCountries(db *sql.DB, f *os.File) {
 			&net,
 			&cName)
 
+		keys = append(keys, key)
+
 		countryTemplate.Execute(os.Stdout, &CountryData{
 			Name:          name,
 			Slug:          slug,
@@ -86,6 +90,13 @@ func generateCountries(db *sql.DB, f *os.File) {
 		})
 	}
 	rows.Close()
+
+	f.WriteString("\nfunc init() {")
+	for _, key := range keys {
+		k := strings.ToUpper(key)
+		f.WriteString("\n\tWorld[\"" + k + "\"] = " + k)
+	}
+	f.WriteString("\n}")
 }
 
 type CountryData struct {
@@ -129,6 +140,4 @@ var {{.Key | ToUpper}} = &Country{
 	Net:           "{{.Net}}",
 	ContinentName: "{{.ContinentName}}",
 }
-
-World = append(World, {{.Key | ToUpper}})
 `))
