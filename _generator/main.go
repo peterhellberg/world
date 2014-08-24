@@ -46,36 +46,34 @@ func generateCountries(db *sql.DB, f *os.File) {
 
 	for rows.Next() {
 		var (
-			name string
-			slug string
-			key  string
-			//place_id     int
-			//code         string
-			//alt_names    string
-			//pop          int
-			//area         int
-			//continent_id int
-			//country_id   int
-			//s            bool
-			//c            bool
-			//d            bool
-			//motor        string
-			//iso2         string
-			iso3  string
-			fifa  string
-			net   string
-			cName string
-			//wikipedia    string
+			name  = ""
+			slug  = ""
+			key   = ""
+			code  = ""
+			motor = ""
+			iso2  = ""
+			iso3  = ""
+			fifa  = ""
+			net   = ""
+			cName = ""
+			pop   = int(-1)
+			area  = int(-1)
 		)
 
 		rows.Scan(
 			&name,
 			&slug,
 			&key,
+			&code,
+			&motor,
+			&iso2,
 			&iso3,
 			&fifa,
 			&net,
-			&cName)
+			&cName,
+			&pop,
+			&area,
+		)
 
 		keys = append(keys, key)
 
@@ -83,10 +81,15 @@ func generateCountries(db *sql.DB, f *os.File) {
 			Name:          name,
 			Slug:          slug,
 			Key:           key,
+			Code:          code,
+			Motor:         motor,
+			Alpha2:        iso2,
 			Alpha3:        iso3,
 			FIFA:          fifa,
 			Net:           net,
 			ContinentName: cName,
+			Pop:           pop,
+			Area:          area,
 		})
 	}
 	rows.Close()
@@ -103,10 +106,15 @@ type CountryData struct {
 	Name          string
 	Slug          string
 	Key           string
+	Code          string
+	Motor         string
+	Alpha2        string
 	Alpha3        string
 	FIFA          string
 	Net           string
 	ContinentName string
+	Pop           int
+	Area          int
 }
 
 var countriesFileHeader = `// Automatically generated file. Do not edit!
@@ -118,10 +126,14 @@ var selectCountriesSQL = `SELECT
 C.name,
 C.slug,
 C.key,
+C.code,
+C.motor
 C.iso3,
 C.fifa,
 C.net,
-T.Name
+T.Name,
+C.pop,
+C.area,
 FROM COUNTRIES AS C
 JOIN CONTINENTS AS T
 ON C.continent_id == T.id`
@@ -135,9 +147,13 @@ var countryTemplate = template.Must(template.New("c").Funcs(funcMap).Parse(`
 var {{.Key | ToUpper}} = &Country{
 	Name:          "{{.Name}}",
 	Key:           "{{.Key}}",
+	Code:          "{{.Code}}",
+	Motor:         "{{.Motor}}",
 	Alpha3:        "{{.Alpha3}}",
 	FIFA:          "{{.FIFA}}",
 	Net:           "{{.Net}}",
 	ContinentName: "{{.ContinentName}}",
+	Pop:           {{.Pop}},
+	Area:          {{.Area}},
 }
 `))
