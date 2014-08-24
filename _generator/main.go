@@ -155,6 +155,7 @@ var countryTemplate = template.Must(template.New("c").Funcs(funcMap).Parse(`
 // {{.Key | ToUpper}} contains the data for {{.Name}}
 var {{.Key | ToUpper}} = &Country{
 	Name:   "{{.Name}}",
+	Slug:   "{{.Slug}}",
 	Key:    "{{.Key}}",
 	Code:   "{{.Code}}",
 	Motor:  "{{.Motor}}",

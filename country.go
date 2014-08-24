@@ -1,10 +1,9 @@
 package world
 
-import "strings"
-
 // Country represents a country
 type Country struct {
 	Name   string // country name e.g. Austria
+	Slug   string // slug based on country name
 	Key    string // key (iso alpha2 if available - otherwise alpha3)
 	Code   string // country code
 	Motor  string // int'l vehicle registration code
@@ -26,12 +25,4 @@ func (c *Country) IsISO() bool {
 
 func (c *Country) IsFIFA() bool {
 	return c.FIFA != ""
-}
-
-func (c *Country) Slug() string {
-	return slugify(c.Name)
-}
-
-func slugify(s string) string {
-	return strings.Replace(strings.ToLower(s), " ", "-", -1)
 }

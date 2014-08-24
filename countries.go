@@ -5,6 +5,7 @@ package world
 // AD contains the data for Andorra
 var AD = &Country{
 	Name:   "Andorra",
+	Slug:   "andorra",
 	Key:    "ad",
 	Code:   "AND",
 	Motor:  "AND",
@@ -19,6 +20,7 @@ var AD = &Country{
 // AE contains the data for United Arab Emirates
 var AE = &Country{
 	Name:   "United Arab Emirates",
+	Slug:   "united-arab-emirates",
 	Key:    "ae",
 	Code:   "UAE",
 	Motor:  "",
@@ -33,6 +35,7 @@ var AE = &Country{
 // AF contains the data for Afghanistan
 var AF = &Country{
 	Name:   "Afghanistan",
+	Slug:   "afghanistan",
 	Key:    "af",
 	Code:   "AFG",
 	Motor:  "",
@@ -47,6 +50,7 @@ var AF = &Country{
 // AG contains the data for Antigua and Barbuda
 var AG = &Country{
 	Name:   "Antigua and Barbuda",
+	Slug:   "antigua-and-barbuda",
 	Key:    "ag",
 	Code:   "ATG",
 	Motor:  "",
@@ -61,6 +65,7 @@ var AG = &Country{
 // AI contains the data for Anguilla
 var AI = &Country{
 	Name:   "Anguilla",
+	Slug:   "anguilla",
 	Key:    "ai",
 	Code:   "AIA",
 	Motor:  "",
@@ -75,6 +80,7 @@ var AI = &Country{
 // AL contains the data for Albania
 var AL = &Country{
 	Name:   "Albania",
+	Slug:   "albania",
 	Key:    "al",
 	Code:   "ALB",
 	Motor:  "AL",
@@ -89,6 +95,7 @@ var AL = &Country{
 // AM contains the data for Armenia
 var AM = &Country{
 	Name:   "Armenia",
+	Slug:   "armenia",
 	Key:    "am",
 	Code:   "ARM",
 	Motor:  "",
@@ -103,6 +110,7 @@ var AM = &Country{
 // AO contains the data for Angola
 var AO = &Country{
 	Name:   "Angola",
+	Slug:   "angola",
 	Key:    "ao",
 	Code:   "ANG",
 	Motor:  "",
@@ -117,6 +125,7 @@ var AO = &Country{
 // AR contains the data for Argentina
 var AR = &Country{
 	Name:   "Argentina",
+	Slug:   "argentina",
 	Key:    "ar",
 	Code:   "ARG",
 	Motor:  "RA",
@@ -131,6 +140,7 @@ var AR = &Country{
 // AS contains the data for American Samoa
 var AS = &Country{
 	Name:   "American Samoa",
+	Slug:   "american-samoa",
 	Key:    "as",
 	Code:   "ASM",
 	Motor:  "",
@@ -145,6 +155,7 @@ var AS = &Country{
 // AT contains the data for Austria
 var AT = &Country{
 	Name:   "Austria",
+	Slug:   "austria",
 	Key:    "at",
 	Code:   "AUT",
 	Motor:  "A",
@@ -159,6 +170,7 @@ var AT = &Country{
 // AU contains the data for Australia
 var AU = &Country{
 	Name:   "Australia",
+	Slug:   "australia",
 	Key:    "au",
 	Code:   "AUS",
 	Motor:  "",
@@ -173,6 +185,7 @@ var AU = &Country{
 // AW contains the data for Aruba
 var AW = &Country{
 	Name:   "Aruba",
+	Slug:   "aruba",
 	Key:    "aw",
 	Code:   "ABW",
 	Motor:  "",
@@ -187,6 +200,7 @@ var AW = &Country{
 // AX contains the data for Åland Islands
 var AX = &Country{
 	Name:   "Åland Islands",
+	Slug:   "aland-islands",
 	Key:    "ax",
 	Code:   "ALA",
 	Motor:  "",
@@ -201,6 +215,7 @@ var AX = &Country{
 // AZ contains the data for Azerbaijan
 var AZ = &Country{
 	Name:   "Azerbaijan",
+	Slug:   "azerbaijan",
 	Key:    "az",
 	Code:   "AZE",
 	Motor:  "",
@@ -215,6 +230,7 @@ var AZ = &Country{
 // BA contains the data for Bosnia and Herzegovina
 var BA = &Country{
 	Name:   "Bosnia and Herzegovina",
+	Slug:   "bosnia-and-herzegovina",
 	Key:    "ba",
 	Code:   "BIH",
 	Motor:  "BIH",
@@ -229,6 +245,7 @@ var BA = &Country{
 // BB contains the data for Barbados
 var BB = &Country{
 	Name:   "Barbados",
+	Slug:   "barbados",
 	Key:    "bb",
 	Code:   "BRB",
 	Motor:  "",
@@ -243,6 +260,7 @@ var BB = &Country{
 // BD contains the data for Bangladesh
 var BD = &Country{
 	Name:   "Bangladesh",
+	Slug:   "bangladesh",
 	Key:    "bd",
 	Code:   "BAN",
 	Motor:  "",
@@ -257,6 +275,7 @@ var BD = &Country{
 // BE contains the data for Belgium
 var BE = &Country{
 	Name:   "Belgium",
+	Slug:   "belgium",
 	Key:    "be",
 	Code:   "BEL",
 	Motor:  "B",
@@ -271,6 +290,7 @@ var BE = &Country{
 // BF contains the data for Burkina Faso
 var BF = &Country{
 	Name:   "Burkina Faso",
+	Slug:   "burkina-faso",
 	Key:    "bf",
 	Code:   "BFA",
 	Motor:  "",
@@ -285,6 +305,7 @@ var BF = &Country{
 // BG contains the data for Bulgaria
 var BG = &Country{
 	Name:   "Bulgaria",
+	Slug:   "bulgaria",
 	Key:    "bg",
 	Code:   "BUL",
 	Motor:  "BG",
@@ -299,6 +320,7 @@ var BG = &Country{
 // BH contains the data for Bahrain
 var BH = &Country{
 	Name:   "Bahrain",
+	Slug:   "bahrain",
 	Key:    "bh",
 	Code:   "BHR",
 	Motor:  "",
@@ -313,6 +335,7 @@ var BH = &Country{
 // BI contains the data for Burundi
 var BI = &Country{
 	Name:   "Burundi",
+	Slug:   "burundi",
 	Key:    "bi",
 	Code:   "BDI",
 	Motor:  "",
@@ -327,6 +350,7 @@ var BI = &Country{
 // BJ contains the data for Benin
 var BJ = &Country{
 	Name:   "Benin",
+	Slug:   "benin",
 	Key:    "bj",
 	Code:   "BEN",
 	Motor:  "",
@@ -341,6 +365,7 @@ var BJ = &Country{
 // BL contains the data for Saint Barthélemy
 var BL = &Country{
 	Name:   "Saint Barthélemy",
+	Slug:   "saint-barthelemy",
 	Key:    "bl",
 	Code:   "BLM",
 	Motor:  "",
@@ -355,6 +380,7 @@ var BL = &Country{
 // BM contains the data for Bermuda
 var BM = &Country{
 	Name:   "Bermuda",
+	Slug:   "bermuda",
 	Key:    "bm",
 	Code:   "BMU",
 	Motor:  "",
@@ -369,6 +395,7 @@ var BM = &Country{
 // BN contains the data for Brunei
 var BN = &Country{
 	Name:   "Brunei",
+	Slug:   "brunei",
 	Key:    "bn",
 	Code:   "BRU",
 	Motor:  "",
@@ -383,6 +410,7 @@ var BN = &Country{
 // BO contains the data for Bolivia
 var BO = &Country{
 	Name:   "Bolivia",
+	Slug:   "bolivia",
 	Key:    "bo",
 	Code:   "BOL",
 	Motor:  "BOL",
@@ -397,6 +425,7 @@ var BO = &Country{
 // BR contains the data for Brazil
 var BR = &Country{
 	Name:   "Brazil",
+	Slug:   "brazil",
 	Key:    "br",
 	Code:   "BRA",
 	Motor:  "BR",
@@ -411,6 +440,7 @@ var BR = &Country{
 // BS contains the data for Bahamas
 var BS = &Country{
 	Name:   "Bahamas",
+	Slug:   "bahamas",
 	Key:    "bs",
 	Code:   "BAH",
 	Motor:  "",
@@ -425,6 +455,7 @@ var BS = &Country{
 // BT contains the data for Bhutan
 var BT = &Country{
 	Name:   "Bhutan",
+	Slug:   "bhutan",
 	Key:    "bt",
 	Code:   "BHU",
 	Motor:  "",
@@ -439,6 +470,7 @@ var BT = &Country{
 // BW contains the data for Botswana
 var BW = &Country{
 	Name:   "Botswana",
+	Slug:   "botswana",
 	Key:    "bw",
 	Code:   "BOT",
 	Motor:  "",
@@ -453,6 +485,7 @@ var BW = &Country{
 // BY contains the data for Belarus
 var BY = &Country{
 	Name:   "Belarus",
+	Slug:   "belarus",
 	Key:    "by",
 	Code:   "BLR",
 	Motor:  "BY",
@@ -467,6 +500,7 @@ var BY = &Country{
 // BZ contains the data for Belize
 var BZ = &Country{
 	Name:   "Belize",
+	Slug:   "belize",
 	Key:    "bz",
 	Code:   "BLZ",
 	Motor:  "",
@@ -481,6 +515,7 @@ var BZ = &Country{
 // CA contains the data for Canada
 var CA = &Country{
 	Name:   "Canada",
+	Slug:   "canada",
 	Key:    "ca",
 	Code:   "CAN",
 	Motor:  "CDN",
@@ -495,6 +530,7 @@ var CA = &Country{
 // CC contains the data for Cocos (Keeling) Islands
 var CC = &Country{
 	Name:   "Cocos (Keeling) Islands",
+	Slug:   "cocos-keeling-islands",
 	Key:    "cc",
 	Code:   "CCK",
 	Motor:  "",
@@ -509,6 +545,7 @@ var CC = &Country{
 // CD contains the data for Congo DR
 var CD = &Country{
 	Name:   "Congo DR",
+	Slug:   "congo-dr",
 	Key:    "cd",
 	Code:   "COD",
 	Motor:  "",
@@ -523,6 +560,7 @@ var CD = &Country{
 // CF contains the data for Central African Republic
 var CF = &Country{
 	Name:   "Central African Republic",
+	Slug:   "central-african-republic",
 	Key:    "cf",
 	Code:   "CTA",
 	Motor:  "",
@@ -537,6 +575,7 @@ var CF = &Country{
 // CG contains the data for Congo
 var CG = &Country{
 	Name:   "Congo",
+	Slug:   "congo",
 	Key:    "cg",
 	Code:   "CGO",
 	Motor:  "",
@@ -551,6 +590,7 @@ var CG = &Country{
 // CH contains the data for Switzerland
 var CH = &Country{
 	Name:   "Switzerland",
+	Slug:   "switzerland",
 	Key:    "ch",
 	Code:   "SUI",
 	Motor:  "CH",
@@ -565,6 +605,7 @@ var CH = &Country{
 // CI contains the data for Côte d'Ivoire
 var CI = &Country{
 	Name:   "Côte d'Ivoire",
+	Slug:   "cote-divoire",
 	Key:    "ci",
 	Code:   "CIV",
 	Motor:  "",
@@ -579,6 +620,7 @@ var CI = &Country{
 // CK contains the data for Cook Islands
 var CK = &Country{
 	Name:   "Cook Islands",
+	Slug:   "cook-islands",
 	Key:    "ck",
 	Code:   "COK",
 	Motor:  "",
@@ -593,6 +635,7 @@ var CK = &Country{
 // CL contains the data for Chile
 var CL = &Country{
 	Name:   "Chile",
+	Slug:   "chile",
 	Key:    "cl",
 	Code:   "CHI",
 	Motor:  "RCH",
@@ -607,6 +650,7 @@ var CL = &Country{
 // CM contains the data for Cameroon
 var CM = &Country{
 	Name:   "Cameroon",
+	Slug:   "cameroon",
 	Key:    "cm",
 	Code:   "CMR",
 	Motor:  "",
@@ -621,6 +665,7 @@ var CM = &Country{
 // CN contains the data for China
 var CN = &Country{
 	Name:   "China",
+	Slug:   "china",
 	Key:    "cn",
 	Code:   "CHN",
 	Motor:  "",
@@ -635,6 +680,7 @@ var CN = &Country{
 // CO contains the data for Colombia
 var CO = &Country{
 	Name:   "Colombia",
+	Slug:   "colombia",
 	Key:    "co",
 	Code:   "COL",
 	Motor:  "CO",
@@ -649,6 +695,7 @@ var CO = &Country{
 // CR contains the data for Costa Rica
 var CR = &Country{
 	Name:   "Costa Rica",
+	Slug:   "costa-rica",
 	Key:    "cr",
 	Code:   "CRC",
 	Motor:  "",
@@ -663,6 +710,7 @@ var CR = &Country{
 // CU contains the data for Cuba
 var CU = &Country{
 	Name:   "Cuba",
+	Slug:   "cuba",
 	Key:    "cu",
 	Code:   "CUB",
 	Motor:  "",
@@ -677,6 +725,7 @@ var CU = &Country{
 // CV contains the data for Cape Verde
 var CV = &Country{
 	Name:   "Cape Verde",
+	Slug:   "cape-verde",
 	Key:    "cv",
 	Code:   "CPV",
 	Motor:  "",
@@ -691,6 +740,7 @@ var CV = &Country{
 // CW contains the data for Curaçao
 var CW = &Country{
 	Name:   "Curaçao",
+	Slug:   "curacao",
 	Key:    "cw",
 	Code:   "CUW",
 	Motor:  "",
@@ -705,6 +755,7 @@ var CW = &Country{
 // CX contains the data for Christmas Island
 var CX = &Country{
 	Name:   "Christmas Island",
+	Slug:   "christmas-island",
 	Key:    "cx",
 	Code:   "CXR",
 	Motor:  "",
@@ -719,6 +770,7 @@ var CX = &Country{
 // CY contains the data for Cyprus
 var CY = &Country{
 	Name:   "Cyprus",
+	Slug:   "cyprus",
 	Key:    "cy",
 	Code:   "CYP",
 	Motor:  "CY",
@@ -733,6 +785,7 @@ var CY = &Country{
 // CZ contains the data for Czech Republic
 var CZ = &Country{
 	Name:   "Czech Republic",
+	Slug:   "czech-republic",
 	Key:    "cz",
 	Code:   "CZE",
 	Motor:  "CZ",
@@ -747,6 +800,7 @@ var CZ = &Country{
 // DE contains the data for Germany
 var DE = &Country{
 	Name:   "Germany",
+	Slug:   "germany",
 	Key:    "de",
 	Code:   "GER",
 	Motor:  "D",
@@ -761,6 +815,7 @@ var DE = &Country{
 // DJ contains the data for Djibouti
 var DJ = &Country{
 	Name:   "Djibouti",
+	Slug:   "djibouti",
 	Key:    "dj",
 	Code:   "DJI",
 	Motor:  "",
@@ -775,6 +830,7 @@ var DJ = &Country{
 // DK contains the data for Denmark
 var DK = &Country{
 	Name:   "Denmark",
+	Slug:   "denmark",
 	Key:    "dk",
 	Code:   "DEN",
 	Motor:  "DK",
@@ -789,6 +845,7 @@ var DK = &Country{
 // DM contains the data for Dominica
 var DM = &Country{
 	Name:   "Dominica",
+	Slug:   "dominica",
 	Key:    "dm",
 	Code:   "DMA",
 	Motor:  "",
@@ -803,6 +860,7 @@ var DM = &Country{
 // DO contains the data for Dominican Republic
 var DO = &Country{
 	Name:   "Dominican Republic",
+	Slug:   "dominican-republic",
 	Key:    "do",
 	Code:   "DOM",
 	Motor:  "",
@@ -817,6 +875,7 @@ var DO = &Country{
 // DZ contains the data for Algeria
 var DZ = &Country{
 	Name:   "Algeria",
+	Slug:   "algeria",
 	Key:    "dz",
 	Code:   "ALG",
 	Motor:  "",
@@ -831,6 +890,7 @@ var DZ = &Country{
 // EC contains the data for Ecuador
 var EC = &Country{
 	Name:   "Ecuador",
+	Slug:   "ecuador",
 	Key:    "ec",
 	Code:   "ECU",
 	Motor:  "EC",
@@ -845,6 +905,7 @@ var EC = &Country{
 // EE contains the data for Estonia
 var EE = &Country{
 	Name:   "Estonia",
+	Slug:   "estonia",
 	Key:    "ee",
 	Code:   "EST",
 	Motor:  "EST",
@@ -859,6 +920,7 @@ var EE = &Country{
 // EG contains the data for Egypt
 var EG = &Country{
 	Name:   "Egypt",
+	Slug:   "egypt",
 	Key:    "eg",
 	Code:   "EGY",
 	Motor:  "",
@@ -873,6 +935,7 @@ var EG = &Country{
 // EN contains the data for England
 var EN = &Country{
 	Name:   "England",
+	Slug:   "england",
 	Key:    "en",
 	Code:   "ENG",
 	Motor:  "ENG",
@@ -887,6 +950,7 @@ var EN = &Country{
 // ER contains the data for Eritrea
 var ER = &Country{
 	Name:   "Eritrea",
+	Slug:   "eritrea",
 	Key:    "er",
 	Code:   "ERI",
 	Motor:  "",
@@ -901,6 +965,7 @@ var ER = &Country{
 // ES contains the data for Spain
 var ES = &Country{
 	Name:   "Spain",
+	Slug:   "spain",
 	Key:    "es",
 	Code:   "ESP",
 	Motor:  "E",
@@ -915,6 +980,7 @@ var ES = &Country{
 // ET contains the data for Ethiopia
 var ET = &Country{
 	Name:   "Ethiopia",
+	Slug:   "ethiopia",
 	Key:    "et",
 	Code:   "ETH",
 	Motor:  "",
@@ -929,6 +995,7 @@ var ET = &Country{
 // EU contains the data for European Union
 var EU = &Country{
 	Name:   "European Union",
+	Slug:   "european-union",
 	Key:    "eu",
 	Code:   "EUR",
 	Motor:  "EU",
@@ -943,6 +1010,7 @@ var EU = &Country{
 // FI contains the data for Finland
 var FI = &Country{
 	Name:   "Finland",
+	Slug:   "finland",
 	Key:    "fi",
 	Code:   "FIN",
 	Motor:  "FIN",
@@ -957,6 +1025,7 @@ var FI = &Country{
 // FJ contains the data for Fiji
 var FJ = &Country{
 	Name:   "Fiji",
+	Slug:   "fiji",
 	Key:    "fj",
 	Code:   "FIJ",
 	Motor:  "",
@@ -971,6 +1040,7 @@ var FJ = &Country{
 // FK contains the data for Falkland Islands
 var FK = &Country{
 	Name:   "Falkland Islands",
+	Slug:   "falkland-islands",
 	Key:    "fk",
 	Code:   "FLK",
 	Motor:  "",
@@ -985,6 +1055,7 @@ var FK = &Country{
 // FM contains the data for Micronesia
 var FM = &Country{
 	Name:   "Micronesia",
+	Slug:   "micronesia",
 	Key:    "fm",
 	Code:   "FSM",
 	Motor:  "",
@@ -999,6 +1070,7 @@ var FM = &Country{
 // FO contains the data for Faroe Islands
 var FO = &Country{
 	Name:   "Faroe Islands",
+	Slug:   "faroe-islands",
 	Key:    "fo",
 	Code:   "FRO",
 	Motor:  "FO",
@@ -1013,6 +1085,7 @@ var FO = &Country{
 // FR contains the data for France
 var FR = &Country{
 	Name:   "France",
+	Slug:   "france",
 	Key:    "fr",
 	Code:   "FRA",
 	Motor:  "F",
@@ -1027,6 +1100,7 @@ var FR = &Country{
 // GA contains the data for Gabon
 var GA = &Country{
 	Name:   "Gabon",
+	Slug:   "gabon",
 	Key:    "ga",
 	Code:   "GAB",
 	Motor:  "",
@@ -1041,6 +1115,7 @@ var GA = &Country{
 // GB contains the data for Great Britain
 var GB = &Country{
 	Name:   "Great Britain",
+	Slug:   "great-britain",
 	Key:    "gb",
 	Code:   "GBR",
 	Motor:  "GB",
@@ -1055,6 +1130,7 @@ var GB = &Country{
 // GD contains the data for Grenada
 var GD = &Country{
 	Name:   "Grenada",
+	Slug:   "grenada",
 	Key:    "gd",
 	Code:   "GRN",
 	Motor:  "",
@@ -1069,6 +1145,7 @@ var GD = &Country{
 // GE contains the data for Georgia
 var GE = &Country{
 	Name:   "Georgia",
+	Slug:   "georgia",
 	Key:    "ge",
 	Code:   "GEO",
 	Motor:  "",
@@ -1083,6 +1160,7 @@ var GE = &Country{
 // GF contains the data for French Guiana
 var GF = &Country{
 	Name:   "French Guiana",
+	Slug:   "french-guiana",
 	Key:    "gf",
 	Code:   "GUF",
 	Motor:  "",
@@ -1097,6 +1175,7 @@ var GF = &Country{
 // GG contains the data for Guernsey
 var GG = &Country{
 	Name:   "Guernsey",
+	Slug:   "guernsey",
 	Key:    "gg",
 	Code:   "GGY",
 	Motor:  "",
@@ -1111,6 +1190,7 @@ var GG = &Country{
 // GH contains the data for Ghana
 var GH = &Country{
 	Name:   "Ghana",
+	Slug:   "ghana",
 	Key:    "gh",
 	Code:   "GHA",
 	Motor:  "",
@@ -1125,6 +1205,7 @@ var GH = &Country{
 // GI contains the data for Gibraltar
 var GI = &Country{
 	Name:   "Gibraltar",
+	Slug:   "gibraltar",
 	Key:    "gi",
 	Code:   "GIB",
 	Motor:  "",
@@ -1139,6 +1220,7 @@ var GI = &Country{
 // GL contains the data for Greenland
 var GL = &Country{
 	Name:   "Greenland",
+	Slug:   "greenland",
 	Key:    "gl",
 	Code:   "GRL",
 	Motor:  "",
@@ -1153,6 +1235,7 @@ var GL = &Country{
 // GM contains the data for Gambia
 var GM = &Country{
 	Name:   "Gambia",
+	Slug:   "gambia",
 	Key:    "gm",
 	Code:   "GAM",
 	Motor:  "",
@@ -1167,6 +1250,7 @@ var GM = &Country{
 // GN contains the data for Guinea
 var GN = &Country{
 	Name:   "Guinea",
+	Slug:   "guinea",
 	Key:    "gn",
 	Code:   "GUI",
 	Motor:  "",
@@ -1181,6 +1265,7 @@ var GN = &Country{
 // GP contains the data for Guadeloupe
 var GP = &Country{
 	Name:   "Guadeloupe",
+	Slug:   "guadeloupe",
 	Key:    "gp",
 	Code:   "GPE",
 	Motor:  "",
@@ -1195,6 +1280,7 @@ var GP = &Country{
 // GQ contains the data for Equatorial Guinea
 var GQ = &Country{
 	Name:   "Equatorial Guinea",
+	Slug:   "equatorial-guinea",
 	Key:    "gq",
 	Code:   "EQG",
 	Motor:  "",
@@ -1209,6 +1295,7 @@ var GQ = &Country{
 // GR contains the data for Greece
 var GR = &Country{
 	Name:   "Greece",
+	Slug:   "greece",
 	Key:    "gr",
 	Code:   "GRE",
 	Motor:  "GR",
@@ -1223,6 +1310,7 @@ var GR = &Country{
 // GS contains the data for South Georgia and South Sandwich
 var GS = &Country{
 	Name:   "South Georgia and South Sandwich",
+	Slug:   "south-georgia-and-south-sandwich",
 	Key:    "gs",
 	Code:   "SGS",
 	Motor:  "",
@@ -1237,6 +1325,7 @@ var GS = &Country{
 // GT contains the data for Guatemala
 var GT = &Country{
 	Name:   "Guatemala",
+	Slug:   "guatemala",
 	Key:    "gt",
 	Code:   "GUA",
 	Motor:  "",
@@ -1251,6 +1340,7 @@ var GT = &Country{
 // GU contains the data for Guam
 var GU = &Country{
 	Name:   "Guam",
+	Slug:   "guam",
 	Key:    "gu",
 	Code:   "GUM",
 	Motor:  "",
@@ -1265,6 +1355,7 @@ var GU = &Country{
 // GW contains the data for Guinea-Bissau
 var GW = &Country{
 	Name:   "Guinea-Bissau",
+	Slug:   "guinea-bissau",
 	Key:    "gw",
 	Code:   "GNB",
 	Motor:  "",
@@ -1279,6 +1370,7 @@ var GW = &Country{
 // GY contains the data for Guyana
 var GY = &Country{
 	Name:   "Guyana",
+	Slug:   "guyana",
 	Key:    "gy",
 	Code:   "GUY",
 	Motor:  "GUY",
@@ -1293,6 +1385,7 @@ var GY = &Country{
 // HK contains the data for Hong Kong
 var HK = &Country{
 	Name:   "Hong Kong",
+	Slug:   "hong-kong",
 	Key:    "hk",
 	Code:   "HKG",
 	Motor:  "",
@@ -1307,6 +1400,7 @@ var HK = &Country{
 // HN contains the data for Honduras
 var HN = &Country{
 	Name:   "Honduras",
+	Slug:   "honduras",
 	Key:    "hn",
 	Code:   "HON",
 	Motor:  "",
@@ -1321,6 +1415,7 @@ var HN = &Country{
 // HR contains the data for Croatia
 var HR = &Country{
 	Name:   "Croatia",
+	Slug:   "croatia",
 	Key:    "hr",
 	Code:   "CRO",
 	Motor:  "HR",
@@ -1335,6 +1430,7 @@ var HR = &Country{
 // HT contains the data for Haiti
 var HT = &Country{
 	Name:   "Haiti",
+	Slug:   "haiti",
 	Key:    "ht",
 	Code:   "HAI",
 	Motor:  "",
@@ -1349,6 +1445,7 @@ var HT = &Country{
 // HU contains the data for Hungary
 var HU = &Country{
 	Name:   "Hungary",
+	Slug:   "hungary",
 	Key:    "hu",
 	Code:   "HUN",
 	Motor:  "H",
@@ -1363,6 +1460,7 @@ var HU = &Country{
 // ID contains the data for Indonesia
 var ID = &Country{
 	Name:   "Indonesia",
+	Slug:   "indonesia",
 	Key:    "id",
 	Code:   "IDN",
 	Motor:  "",
@@ -1377,6 +1475,7 @@ var ID = &Country{
 // IE contains the data for Irland
 var IE = &Country{
 	Name:   "Irland",
+	Slug:   "irland",
 	Key:    "ie",
 	Code:   "IRL",
 	Motor:  "IRL",
@@ -1391,6 +1490,7 @@ var IE = &Country{
 // IL contains the data for Israel
 var IL = &Country{
 	Name:   "Israel",
+	Slug:   "israel",
 	Key:    "il",
 	Code:   "ISR",
 	Motor:  "",
@@ -1405,6 +1505,7 @@ var IL = &Country{
 // IM contains the data for Isle of Man
 var IM = &Country{
 	Name:   "Isle of Man",
+	Slug:   "isle-of-man",
 	Key:    "im",
 	Code:   "IMN",
 	Motor:  "",
@@ -1419,6 +1520,7 @@ var IM = &Country{
 // IN contains the data for India
 var IN = &Country{
 	Name:   "India",
+	Slug:   "india",
 	Key:    "in",
 	Code:   "IND",
 	Motor:  "",
@@ -1433,6 +1535,7 @@ var IN = &Country{
 // IO contains the data for British Indian Ocean Territory
 var IO = &Country{
 	Name:   "British Indian Ocean Territory",
+	Slug:   "british-indian-ocean-territory",
 	Key:    "io",
 	Code:   "IOT",
 	Motor:  "",
@@ -1447,6 +1550,7 @@ var IO = &Country{
 // IQ contains the data for Iraq
 var IQ = &Country{
 	Name:   "Iraq",
+	Slug:   "iraq",
 	Key:    "iq",
 	Code:   "IRQ",
 	Motor:  "",
@@ -1461,6 +1565,7 @@ var IQ = &Country{
 // IR contains the data for Iran
 var IR = &Country{
 	Name:   "Iran",
+	Slug:   "iran",
 	Key:    "ir",
 	Code:   "IRN",
 	Motor:  "",
@@ -1475,6 +1580,7 @@ var IR = &Country{
 // IS contains the data for Iceland
 var IS = &Country{
 	Name:   "Iceland",
+	Slug:   "iceland",
 	Key:    "is",
 	Code:   "ISL",
 	Motor:  "IS",
@@ -1489,6 +1595,7 @@ var IS = &Country{
 // IT contains the data for Italy
 var IT = &Country{
 	Name:   "Italy",
+	Slug:   "italy",
 	Key:    "it",
 	Code:   "ITA",
 	Motor:  "I",
@@ -1503,6 +1610,7 @@ var IT = &Country{
 // JE contains the data for Jersey
 var JE = &Country{
 	Name:   "Jersey",
+	Slug:   "jersey",
 	Key:    "je",
 	Code:   "JEY",
 	Motor:  "",
@@ -1517,6 +1625,7 @@ var JE = &Country{
 // JM contains the data for Jamaica
 var JM = &Country{
 	Name:   "Jamaica",
+	Slug:   "jamaica",
 	Key:    "jm",
 	Code:   "JAM",
 	Motor:  "",
@@ -1531,6 +1640,7 @@ var JM = &Country{
 // JO contains the data for Jordan
 var JO = &Country{
 	Name:   "Jordan",
+	Slug:   "jordan",
 	Key:    "jo",
 	Code:   "JOR",
 	Motor:  "",
@@ -1545,6 +1655,7 @@ var JO = &Country{
 // JP contains the data for Japan
 var JP = &Country{
 	Name:   "Japan",
+	Slug:   "japan",
 	Key:    "jp",
 	Code:   "JPN",
 	Motor:  "",
@@ -1559,6 +1670,7 @@ var JP = &Country{
 // KE contains the data for Kenya
 var KE = &Country{
 	Name:   "Kenya",
+	Slug:   "kenya",
 	Key:    "ke",
 	Code:   "KEN",
 	Motor:  "",
@@ -1573,6 +1685,7 @@ var KE = &Country{
 // KG contains the data for Kyrgyzstan
 var KG = &Country{
 	Name:   "Kyrgyzstan",
+	Slug:   "kyrgyzstan",
 	Key:    "kg",
 	Code:   "KGZ",
 	Motor:  "",
@@ -1587,6 +1700,7 @@ var KG = &Country{
 // KH contains the data for Cambodia
 var KH = &Country{
 	Name:   "Cambodia",
+	Slug:   "cambodia",
 	Key:    "kh",
 	Code:   "CAM",
 	Motor:  "",
@@ -1601,6 +1715,7 @@ var KH = &Country{
 // KI contains the data for Kiribati
 var KI = &Country{
 	Name:   "Kiribati",
+	Slug:   "kiribati",
 	Key:    "ki",
 	Code:   "KIR",
 	Motor:  "",
@@ -1615,6 +1730,7 @@ var KI = &Country{
 // KM contains the data for Comoros
 var KM = &Country{
 	Name:   "Comoros",
+	Slug:   "comoros",
 	Key:    "km",
 	Code:   "COM",
 	Motor:  "",
@@ -1629,6 +1745,7 @@ var KM = &Country{
 // KN contains the data for Saint Kitts and Nevis
 var KN = &Country{
 	Name:   "Saint Kitts and Nevis",
+	Slug:   "saint-kitts-and-nevis",
 	Key:    "kn",
 	Code:   "SKN",
 	Motor:  "",
@@ -1643,6 +1760,7 @@ var KN = &Country{
 // KP contains the data for North Korea
 var KP = &Country{
 	Name:   "North Korea",
+	Slug:   "north-korea",
 	Key:    "kp",
 	Code:   "PRK",
 	Motor:  "",
@@ -1657,6 +1775,7 @@ var KP = &Country{
 // KR contains the data for South Korea
 var KR = &Country{
 	Name:   "South Korea",
+	Slug:   "south-korea",
 	Key:    "kr",
 	Code:   "KOR",
 	Motor:  "",
@@ -1671,6 +1790,7 @@ var KR = &Country{
 // KW contains the data for Kuwait
 var KW = &Country{
 	Name:   "Kuwait",
+	Slug:   "kuwait",
 	Key:    "kw",
 	Code:   "KUW",
 	Motor:  "",
@@ -1685,6 +1805,7 @@ var KW = &Country{
 // KY contains the data for Cayman Islands
 var KY = &Country{
 	Name:   "Cayman Islands",
+	Slug:   "cayman-islands",
 	Key:    "ky",
 	Code:   "CYM",
 	Motor:  "",
@@ -1699,6 +1820,7 @@ var KY = &Country{
 // KZ contains the data for Kazakhstan
 var KZ = &Country{
 	Name:   "Kazakhstan",
+	Slug:   "kazakhstan",
 	Key:    "kz",
 	Code:   "KAZ",
 	Motor:  "",
@@ -1713,6 +1835,7 @@ var KZ = &Country{
 // LA contains the data for Laos
 var LA = &Country{
 	Name:   "Laos",
+	Slug:   "laos",
 	Key:    "la",
 	Code:   "LAO",
 	Motor:  "",
@@ -1727,6 +1850,7 @@ var LA = &Country{
 // LB contains the data for Lebanon
 var LB = &Country{
 	Name:   "Lebanon",
+	Slug:   "lebanon",
 	Key:    "lb",
 	Code:   "LIB",
 	Motor:  "",
@@ -1741,6 +1865,7 @@ var LB = &Country{
 // LC contains the data for Saint Lucia
 var LC = &Country{
 	Name:   "Saint Lucia",
+	Slug:   "saint-lucia",
 	Key:    "lc",
 	Code:   "LCA",
 	Motor:  "",
@@ -1755,6 +1880,7 @@ var LC = &Country{
 // LI contains the data for Liechtenstein
 var LI = &Country{
 	Name:   "Liechtenstein",
+	Slug:   "liechtenstein",
 	Key:    "li",
 	Code:   "LIE",
 	Motor:  "FL",
@@ -1769,6 +1895,7 @@ var LI = &Country{
 // LK contains the data for Sri Lanka
 var LK = &Country{
 	Name:   "Sri Lanka",
+	Slug:   "sri-lanka",
 	Key:    "lk",
 	Code:   "SRI",
 	Motor:  "",
@@ -1783,6 +1910,7 @@ var LK = &Country{
 // LR contains the data for Liberia
 var LR = &Country{
 	Name:   "Liberia",
+	Slug:   "liberia",
 	Key:    "lr",
 	Code:   "LBR",
 	Motor:  "",
@@ -1797,6 +1925,7 @@ var LR = &Country{
 // LS contains the data for Lesotho
 var LS = &Country{
 	Name:   "Lesotho",
+	Slug:   "lesotho",
 	Key:    "ls",
 	Code:   "LES",
 	Motor:  "",
@@ -1811,6 +1940,7 @@ var LS = &Country{
 // LT contains the data for Lithuania
 var LT = &Country{
 	Name:   "Lithuania",
+	Slug:   "lithuania",
 	Key:    "lt",
 	Code:   "LTU",
 	Motor:  "LT",
@@ -1825,6 +1955,7 @@ var LT = &Country{
 // LU contains the data for Luxembourg
 var LU = &Country{
 	Name:   "Luxembourg",
+	Slug:   "luxembourg",
 	Key:    "lu",
 	Code:   "LUX",
 	Motor:  "L",
@@ -1839,6 +1970,7 @@ var LU = &Country{
 // LV contains the data for Latvija [Latvia]
 var LV = &Country{
 	Name:   "Latvija [Latvia]",
+	Slug:   "latvija",
 	Key:    "lv",
 	Code:   "LVA",
 	Motor:  "LV",
@@ -1853,6 +1985,7 @@ var LV = &Country{
 // LY contains the data for Libya
 var LY = &Country{
 	Name:   "Libya",
+	Slug:   "libya",
 	Key:    "ly",
 	Code:   "LBY",
 	Motor:  "",
@@ -1867,6 +2000,7 @@ var LY = &Country{
 // MA contains the data for Morocco
 var MA = &Country{
 	Name:   "Morocco",
+	Slug:   "morocco",
 	Key:    "ma",
 	Code:   "MAR",
 	Motor:  "",
@@ -1881,6 +2015,7 @@ var MA = &Country{
 // MC contains the data for Monaco
 var MC = &Country{
 	Name:   "Monaco",
+	Slug:   "monaco",
 	Key:    "mc",
 	Code:   "MCO",
 	Motor:  "MC",
@@ -1895,6 +2030,7 @@ var MC = &Country{
 // MD contains the data for Moldova
 var MD = &Country{
 	Name:   "Moldova",
+	Slug:   "moldova",
 	Key:    "md",
 	Code:   "MDA",
 	Motor:  "MD",
@@ -1909,6 +2045,7 @@ var MD = &Country{
 // ME contains the data for Montenegro
 var ME = &Country{
 	Name:   "Montenegro",
+	Slug:   "montenegro",
 	Key:    "me",
 	Code:   "MNE",
 	Motor:  "MNE",
@@ -1923,6 +2060,7 @@ var ME = &Country{
 // MF contains the data for Saint Martin (French)
 var MF = &Country{
 	Name:   "Saint Martin (French)",
+	Slug:   "saint-martin-french",
 	Key:    "mf",
 	Code:   "MAF",
 	Motor:  "",
@@ -1937,6 +2075,7 @@ var MF = &Country{
 // MG contains the data for Madagascar
 var MG = &Country{
 	Name:   "Madagascar",
+	Slug:   "madagascar",
 	Key:    "mg",
 	Code:   "MAD",
 	Motor:  "",
@@ -1951,6 +2090,7 @@ var MG = &Country{
 // MH contains the data for Marshall Islands
 var MH = &Country{
 	Name:   "Marshall Islands",
+	Slug:   "marshall-islands",
 	Key:    "mh",
 	Code:   "MHL",
 	Motor:  "",
@@ -1965,6 +2105,7 @@ var MH = &Country{
 // MK contains the data for Macedonia
 var MK = &Country{
 	Name:   "Macedonia",
+	Slug:   "macedonia",
 	Key:    "mk",
 	Code:   "MKD",
 	Motor:  "MK",
@@ -1979,6 +2120,7 @@ var MK = &Country{
 // ML contains the data for Mali
 var ML = &Country{
 	Name:   "Mali",
+	Slug:   "mali",
 	Key:    "ml",
 	Code:   "MLI",
 	Motor:  "",
@@ -1993,6 +2135,7 @@ var ML = &Country{
 // MM contains the data for Myanmar
 var MM = &Country{
 	Name:   "Myanmar",
+	Slug:   "myanmar",
 	Key:    "mm",
 	Code:   "MYA",
 	Motor:  "",
@@ -2007,6 +2150,7 @@ var MM = &Country{
 // MN contains the data for Mongolia
 var MN = &Country{
 	Name:   "Mongolia",
+	Slug:   "mongolia",
 	Key:    "mn",
 	Code:   "MGL",
 	Motor:  "",
@@ -2021,6 +2165,7 @@ var MN = &Country{
 // MO contains the data for Macau
 var MO = &Country{
 	Name:   "Macau",
+	Slug:   "macau",
 	Key:    "mo",
 	Code:   "MAC",
 	Motor:  "",
@@ -2035,6 +2180,7 @@ var MO = &Country{
 // MP contains the data for Northern Mariana Islands
 var MP = &Country{
 	Name:   "Northern Mariana Islands",
+	Slug:   "northern-mariana-islands",
 	Key:    "mp",
 	Code:   "MNP",
 	Motor:  "",
@@ -2049,6 +2195,7 @@ var MP = &Country{
 // MQ contains the data for Martinique
 var MQ = &Country{
 	Name:   "Martinique",
+	Slug:   "martinique",
 	Key:    "mq",
 	Code:   "MTQ",
 	Motor:  "",
@@ -2063,6 +2210,7 @@ var MQ = &Country{
 // MR contains the data for Mauritania
 var MR = &Country{
 	Name:   "Mauritania",
+	Slug:   "mauritania",
 	Key:    "mr",
 	Code:   "MTN",
 	Motor:  "",
@@ -2077,6 +2225,7 @@ var MR = &Country{
 // MS contains the data for Montserrat
 var MS = &Country{
 	Name:   "Montserrat",
+	Slug:   "montserrat",
 	Key:    "ms",
 	Code:   "MSR",
 	Motor:  "",
@@ -2091,6 +2240,7 @@ var MS = &Country{
 // MT contains the data for Malta
 var MT = &Country{
 	Name:   "Malta",
+	Slug:   "malta",
 	Key:    "mt",
 	Code:   "MLT",
 	Motor:  "M",
@@ -2105,6 +2255,7 @@ var MT = &Country{
 // MU contains the data for Mauritius
 var MU = &Country{
 	Name:   "Mauritius",
+	Slug:   "mauritius",
 	Key:    "mu",
 	Code:   "MRI",
 	Motor:  "",
@@ -2119,6 +2270,7 @@ var MU = &Country{
 // MV contains the data for Maldives
 var MV = &Country{
 	Name:   "Maldives",
+	Slug:   "maldives",
 	Key:    "mv",
 	Code:   "MDV",
 	Motor:  "",
@@ -2133,6 +2285,7 @@ var MV = &Country{
 // MW contains the data for Malawi
 var MW = &Country{
 	Name:   "Malawi",
+	Slug:   "malawi",
 	Key:    "mw",
 	Code:   "MWI",
 	Motor:  "",
@@ -2147,6 +2300,7 @@ var MW = &Country{
 // MX contains the data for México [Mexico]
 var MX = &Country{
 	Name:   "México [Mexico]",
+	Slug:   "mexico",
 	Key:    "mx",
 	Code:   "MEX",
 	Motor:  "MEX",
@@ -2161,6 +2315,7 @@ var MX = &Country{
 // MY contains the data for Malaysia
 var MY = &Country{
 	Name:   "Malaysia",
+	Slug:   "malaysia",
 	Key:    "my",
 	Code:   "MAS",
 	Motor:  "",
@@ -2175,6 +2330,7 @@ var MY = &Country{
 // MZ contains the data for Mozambique
 var MZ = &Country{
 	Name:   "Mozambique",
+	Slug:   "mozambique",
 	Key:    "mz",
 	Code:   "MOZ",
 	Motor:  "",
@@ -2189,6 +2345,7 @@ var MZ = &Country{
 // NA contains the data for Namibia
 var NA = &Country{
 	Name:   "Namibia",
+	Slug:   "namibia",
 	Key:    "na",
 	Code:   "NAM",
 	Motor:  "",
@@ -2203,6 +2360,7 @@ var NA = &Country{
 // NC contains the data for New Caledonia
 var NC = &Country{
 	Name:   "New Caledonia",
+	Slug:   "new-caledonia",
 	Key:    "nc",
 	Code:   "NCL",
 	Motor:  "",
@@ -2217,6 +2375,7 @@ var NC = &Country{
 // ND contains the data for Northern Ireland
 var ND = &Country{
 	Name:   "Northern Ireland",
+	Slug:   "northern-ireland",
 	Key:    "nd",
 	Code:   "NIR",
 	Motor:  "NI",
@@ -2231,6 +2390,7 @@ var ND = &Country{
 // NE contains the data for Niger
 var NE = &Country{
 	Name:   "Niger",
+	Slug:   "niger",
 	Key:    "ne",
 	Code:   "NIG",
 	Motor:  "",
@@ -2245,6 +2405,7 @@ var NE = &Country{
 // NF contains the data for Norfolk Island
 var NF = &Country{
 	Name:   "Norfolk Island",
+	Slug:   "norfolk-island",
 	Key:    "nf",
 	Code:   "NFK",
 	Motor:  "",
@@ -2259,6 +2420,7 @@ var NF = &Country{
 // NG contains the data for Nigeria
 var NG = &Country{
 	Name:   "Nigeria",
+	Slug:   "nigeria",
 	Key:    "ng",
 	Code:   "NGA",
 	Motor:  "",
@@ -2273,6 +2435,7 @@ var NG = &Country{
 // NI contains the data for Nicaragua
 var NI = &Country{
 	Name:   "Nicaragua",
+	Slug:   "nicaragua",
 	Key:    "ni",
 	Code:   "NCA",
 	Motor:  "",
@@ -2287,6 +2450,7 @@ var NI = &Country{
 // NL contains the data for Netherlands
 var NL = &Country{
 	Name:   "Netherlands",
+	Slug:   "netherlands",
 	Key:    "nl",
 	Code:   "NED",
 	Motor:  "NL",
@@ -2301,6 +2465,7 @@ var NL = &Country{
 // NO contains the data for Norway
 var NO = &Country{
 	Name:   "Norway",
+	Slug:   "norway",
 	Key:    "no",
 	Code:   "NOR",
 	Motor:  "N",
@@ -2315,6 +2480,7 @@ var NO = &Country{
 // NP contains the data for Nepal
 var NP = &Country{
 	Name:   "Nepal",
+	Slug:   "nepal",
 	Key:    "np",
 	Code:   "NEP",
 	Motor:  "",
@@ -2329,6 +2495,7 @@ var NP = &Country{
 // NR contains the data for Nauru
 var NR = &Country{
 	Name:   "Nauru",
+	Slug:   "nauru",
 	Key:    "nr",
 	Code:   "NRU",
 	Motor:  "",
@@ -2343,6 +2510,7 @@ var NR = &Country{
 // NU contains the data for Niue
 var NU = &Country{
 	Name:   "Niue",
+	Slug:   "niue",
 	Key:    "nu",
 	Code:   "NIU",
 	Motor:  "",
@@ -2357,6 +2525,7 @@ var NU = &Country{
 // NZ contains the data for New Zealand
 var NZ = &Country{
 	Name:   "New Zealand",
+	Slug:   "new-zealand",
 	Key:    "nz",
 	Code:   "NZL",
 	Motor:  "",
@@ -2371,6 +2540,7 @@ var NZ = &Country{
 // OM contains the data for Oman
 var OM = &Country{
 	Name:   "Oman",
+	Slug:   "oman",
 	Key:    "om",
 	Code:   "OMA",
 	Motor:  "",
@@ -2385,6 +2555,7 @@ var OM = &Country{
 // PA contains the data for Panamá [Panama]
 var PA = &Country{
 	Name:   "Panamá [Panama]",
+	Slug:   "panama",
 	Key:    "pa",
 	Code:   "PAN",
 	Motor:  "",
@@ -2399,6 +2570,7 @@ var PA = &Country{
 // PE contains the data for Peru
 var PE = &Country{
 	Name:   "Peru",
+	Slug:   "peru",
 	Key:    "pe",
 	Code:   "PER",
 	Motor:  "PE",
@@ -2413,6 +2585,7 @@ var PE = &Country{
 // PF contains the data for Tahiti
 var PF = &Country{
 	Name:   "Tahiti",
+	Slug:   "tahiti",
 	Key:    "pf",
 	Code:   "TAH",
 	Motor:  "",
@@ -2427,6 +2600,7 @@ var PF = &Country{
 // PG contains the data for Papua New Guinea
 var PG = &Country{
 	Name:   "Papua New Guinea",
+	Slug:   "papua-new-guinea",
 	Key:    "pg",
 	Code:   "PNG",
 	Motor:  "",
@@ -2441,6 +2615,7 @@ var PG = &Country{
 // PH contains the data for Philippines
 var PH = &Country{
 	Name:   "Philippines",
+	Slug:   "philippines",
 	Key:    "ph",
 	Code:   "PHI",
 	Motor:  "",
@@ -2455,6 +2630,7 @@ var PH = &Country{
 // PK contains the data for Pakistan
 var PK = &Country{
 	Name:   "Pakistan",
+	Slug:   "pakistan",
 	Key:    "pk",
 	Code:   "PAK",
 	Motor:  "",
@@ -2469,6 +2645,7 @@ var PK = &Country{
 // PL contains the data for Poland
 var PL = &Country{
 	Name:   "Poland",
+	Slug:   "poland",
 	Key:    "pl",
 	Code:   "POL",
 	Motor:  "PL",
@@ -2483,6 +2660,7 @@ var PL = &Country{
 // PM contains the data for Saint Pierre and Miquelon
 var PM = &Country{
 	Name:   "Saint Pierre and Miquelon",
+	Slug:   "saint-pierre-and-miquelon",
 	Key:    "pm",
 	Code:   "SPM",
 	Motor:  "",
@@ -2497,6 +2675,7 @@ var PM = &Country{
 // PN contains the data for Pitcairn Islands
 var PN = &Country{
 	Name:   "Pitcairn Islands",
+	Slug:   "pitcairn-islands",
 	Key:    "pn",
 	Code:   "PCN",
 	Motor:  "",
@@ -2511,6 +2690,7 @@ var PN = &Country{
 // PR contains the data for Puerto Rico
 var PR = &Country{
 	Name:   "Puerto Rico",
+	Slug:   "puerto-rico",
 	Key:    "pr",
 	Code:   "PUR",
 	Motor:  "",
@@ -2525,6 +2705,7 @@ var PR = &Country{
 // PS contains the data for Palestine
 var PS = &Country{
 	Name:   "Palestine",
+	Slug:   "palestine",
 	Key:    "ps",
 	Code:   "PLE",
 	Motor:  "",
@@ -2539,6 +2720,7 @@ var PS = &Country{
 // PT contains the data for Portugal
 var PT = &Country{
 	Name:   "Portugal",
+	Slug:   "portugal",
 	Key:    "pt",
 	Code:   "POR",
 	Motor:  "P",
@@ -2553,6 +2735,7 @@ var PT = &Country{
 // PW contains the data for Palau
 var PW = &Country{
 	Name:   "Palau",
+	Slug:   "palau",
 	Key:    "pw",
 	Code:   "PLW",
 	Motor:  "",
@@ -2567,6 +2750,7 @@ var PW = &Country{
 // PY contains the data for Paraguay
 var PY = &Country{
 	Name:   "Paraguay",
+	Slug:   "paraguay",
 	Key:    "py",
 	Code:   "PAR",
 	Motor:  "PY",
@@ -2581,6 +2765,7 @@ var PY = &Country{
 // QA contains the data for Qatar
 var QA = &Country{
 	Name:   "Qatar",
+	Slug:   "qatar",
 	Key:    "qa",
 	Code:   "QAT",
 	Motor:  "",
@@ -2595,6 +2780,7 @@ var QA = &Country{
 // RE contains the data for Réunion
 var RE = &Country{
 	Name:   "Réunion",
+	Slug:   "reunion",
 	Key:    "re",
 	Code:   "REU",
 	Motor:  "",
@@ -2609,6 +2795,7 @@ var RE = &Country{
 // RO contains the data for Romania
 var RO = &Country{
 	Name:   "Romania",
+	Slug:   "romania",
 	Key:    "ro",
 	Code:   "ROU",
 	Motor:  "RO",
@@ -2623,6 +2810,7 @@ var RO = &Country{
 // RS contains the data for Serbia
 var RS = &Country{
 	Name:   "Serbia",
+	Slug:   "serbia",
 	Key:    "rs",
 	Code:   "SRB",
 	Motor:  "SRB",
@@ -2637,6 +2825,7 @@ var RS = &Country{
 // RU contains the data for Russia
 var RU = &Country{
 	Name:   "Russia",
+	Slug:   "russia",
 	Key:    "ru",
 	Code:   "RUS",
 	Motor:  "RUS",
@@ -2651,6 +2840,7 @@ var RU = &Country{
 // RW contains the data for Rwanda
 var RW = &Country{
 	Name:   "Rwanda",
+	Slug:   "rwanda",
 	Key:    "rw",
 	Code:   "RWA",
 	Motor:  "",
@@ -2665,6 +2855,7 @@ var RW = &Country{
 // SA contains the data for Saudi Arabia
 var SA = &Country{
 	Name:   "Saudi Arabia",
+	Slug:   "saudi-arabia",
 	Key:    "sa",
 	Code:   "KSA",
 	Motor:  "",
@@ -2679,6 +2870,7 @@ var SA = &Country{
 // SB contains the data for Solomon Islands
 var SB = &Country{
 	Name:   "Solomon Islands",
+	Slug:   "solomon-islands",
 	Key:    "sb",
 	Code:   "SOL",
 	Motor:  "",
@@ -2693,6 +2885,7 @@ var SB = &Country{
 // SC contains the data for Scotland
 var SC = &Country{
 	Name:   "Scotland",
+	Slug:   "scotland",
 	Key:    "sc",
 	Code:   "SCO",
 	Motor:  "SCO",
@@ -2707,6 +2900,7 @@ var SC = &Country{
 // SD contains the data for Sudan
 var SD = &Country{
 	Name:   "Sudan",
+	Slug:   "sudan",
 	Key:    "sd",
 	Code:   "SDN",
 	Motor:  "",
@@ -2721,6 +2915,7 @@ var SD = &Country{
 // SE contains the data for Sweden
 var SE = &Country{
 	Name:   "Sweden",
+	Slug:   "sweden",
 	Key:    "se",
 	Code:   "SWE",
 	Motor:  "S",
@@ -2735,6 +2930,7 @@ var SE = &Country{
 // SG contains the data for Singapore
 var SG = &Country{
 	Name:   "Singapore",
+	Slug:   "singapore",
 	Key:    "sg",
 	Code:   "SIN",
 	Motor:  "",
@@ -2749,6 +2945,7 @@ var SG = &Country{
 // SH contains the data for Saint Helena
 var SH = &Country{
 	Name:   "Saint Helena",
+	Slug:   "saint-helena",
 	Key:    "sh",
 	Code:   "SHN",
 	Motor:  "",
@@ -2763,6 +2960,7 @@ var SH = &Country{
 // SI contains the data for Slovenia
 var SI = &Country{
 	Name:   "Slovenia",
+	Slug:   "slovenia",
 	Key:    "si",
 	Code:   "SVN",
 	Motor:  "SLO",
@@ -2777,6 +2975,7 @@ var SI = &Country{
 // SK contains the data for Slovakia
 var SK = &Country{
 	Name:   "Slovakia",
+	Slug:   "slovakia",
 	Key:    "sk",
 	Code:   "SVK",
 	Motor:  "SK",
@@ -2791,6 +2990,7 @@ var SK = &Country{
 // SL contains the data for Sierra Leone
 var SL = &Country{
 	Name:   "Sierra Leone",
+	Slug:   "sierra-leone",
 	Key:    "sl",
 	Code:   "SLE",
 	Motor:  "",
@@ -2805,6 +3005,7 @@ var SL = &Country{
 // SM contains the data for San Marino
 var SM = &Country{
 	Name:   "San Marino",
+	Slug:   "san-marino",
 	Key:    "sm",
 	Code:   "SMR",
 	Motor:  "RSM",
@@ -2819,6 +3020,7 @@ var SM = &Country{
 // SN contains the data for Senegal
 var SN = &Country{
 	Name:   "Senegal",
+	Slug:   "senegal",
 	Key:    "sn",
 	Code:   "SEN",
 	Motor:  "",
@@ -2833,6 +3035,7 @@ var SN = &Country{
 // SO contains the data for Somalia
 var SO = &Country{
 	Name:   "Somalia",
+	Slug:   "somalia",
 	Key:    "so",
 	Code:   "SOM",
 	Motor:  "",
@@ -2847,6 +3050,7 @@ var SO = &Country{
 // SR contains the data for Suriname
 var SR = &Country{
 	Name:   "Suriname",
+	Slug:   "suriname",
 	Key:    "sr",
 	Code:   "SUR",
 	Motor:  "SME",
@@ -2861,6 +3065,7 @@ var SR = &Country{
 // SS contains the data for South Sudan
 var SS = &Country{
 	Name:   "South Sudan",
+	Slug:   "south-sudan",
 	Key:    "ss",
 	Code:   "SSD",
 	Motor:  "",
@@ -2875,6 +3080,7 @@ var SS = &Country{
 // ST contains the data for São Tomé and Príncipe
 var ST = &Country{
 	Name:   "São Tomé and Príncipe",
+	Slug:   "sao-tome-and-principe",
 	Key:    "st",
 	Code:   "STP",
 	Motor:  "",
@@ -2889,6 +3095,7 @@ var ST = &Country{
 // SV contains the data for El Salvador
 var SV = &Country{
 	Name:   "El Salvador",
+	Slug:   "el-salvador",
 	Key:    "sv",
 	Code:   "SLV",
 	Motor:  "",
@@ -2903,6 +3110,7 @@ var SV = &Country{
 // SY contains the data for Syria
 var SY = &Country{
 	Name:   "Syria",
+	Slug:   "syria",
 	Key:    "sy",
 	Code:   "SYR",
 	Motor:  "",
@@ -2917,6 +3125,7 @@ var SY = &Country{
 // SZ contains the data for Swaziland
 var SZ = &Country{
 	Name:   "Swaziland",
+	Slug:   "swaziland",
 	Key:    "sz",
 	Code:   "SWZ",
 	Motor:  "",
@@ -2931,6 +3140,7 @@ var SZ = &Country{
 // TC contains the data for Turks and Caicos Islands
 var TC = &Country{
 	Name:   "Turks and Caicos Islands",
+	Slug:   "turks-and-caicos-islands",
 	Key:    "tc",
 	Code:   "TCA",
 	Motor:  "",
@@ -2945,6 +3155,7 @@ var TC = &Country{
 // TD contains the data for Chad
 var TD = &Country{
 	Name:   "Chad",
+	Slug:   "chad",
 	Key:    "td",
 	Code:   "CHA",
 	Motor:  "",
@@ -2959,6 +3170,7 @@ var TD = &Country{
 // TG contains the data for Togo
 var TG = &Country{
 	Name:   "Togo",
+	Slug:   "togo",
 	Key:    "tg",
 	Code:   "TOG",
 	Motor:  "",
@@ -2973,6 +3185,7 @@ var TG = &Country{
 // TH contains the data for Thailand
 var TH = &Country{
 	Name:   "Thailand",
+	Slug:   "thailand",
 	Key:    "th",
 	Code:   "THA",
 	Motor:  "",
@@ -2987,6 +3200,7 @@ var TH = &Country{
 // TJ contains the data for Tajikistan
 var TJ = &Country{
 	Name:   "Tajikistan",
+	Slug:   "tajikistan",
 	Key:    "tj",
 	Code:   "TJK",
 	Motor:  "",
@@ -3001,6 +3215,7 @@ var TJ = &Country{
 // TK contains the data for Tokelau
 var TK = &Country{
 	Name:   "Tokelau",
+	Slug:   "tokelau",
 	Key:    "tk",
 	Code:   "TKL",
 	Motor:  "",
@@ -3015,6 +3230,7 @@ var TK = &Country{
 // TL contains the data for Timor-Leste [East Timor]
 var TL = &Country{
 	Name:   "Timor-Leste [East Timor]",
+	Slug:   "timor-leste",
 	Key:    "tl",
 	Code:   "TLS",
 	Motor:  "",
@@ -3029,6 +3245,7 @@ var TL = &Country{
 // TM contains the data for Turkmenistan
 var TM = &Country{
 	Name:   "Turkmenistan",
+	Slug:   "turkmenistan",
 	Key:    "tm",
 	Code:   "TKM",
 	Motor:  "",
@@ -3043,6 +3260,7 @@ var TM = &Country{
 // TN contains the data for Tunisia
 var TN = &Country{
 	Name:   "Tunisia",
+	Slug:   "tunisia",
 	Key:    "tn",
 	Code:   "TUN",
 	Motor:  "",
@@ -3057,6 +3275,7 @@ var TN = &Country{
 // TO contains the data for Tonga
 var TO = &Country{
 	Name:   "Tonga",
+	Slug:   "tonga",
 	Key:    "to",
 	Code:   "TGA",
 	Motor:  "",
@@ -3071,6 +3290,7 @@ var TO = &Country{
 // TR contains the data for Turkey
 var TR = &Country{
 	Name:   "Turkey",
+	Slug:   "turkey",
 	Key:    "tr",
 	Code:   "TUR",
 	Motor:  "TR",
@@ -3085,6 +3305,7 @@ var TR = &Country{
 // TT contains the data for Trinidad and Tobago
 var TT = &Country{
 	Name:   "Trinidad and Tobago",
+	Slug:   "trinidad-and-tobago",
 	Key:    "tt",
 	Code:   "TRI",
 	Motor:  "",
@@ -3099,6 +3320,7 @@ var TT = &Country{
 // TV contains the data for Tuvalu
 var TV = &Country{
 	Name:   "Tuvalu",
+	Slug:   "tuvalu",
 	Key:    "tv",
 	Code:   "TUV",
 	Motor:  "",
@@ -3113,6 +3335,7 @@ var TV = &Country{
 // TW contains the data for Taiwan
 var TW = &Country{
 	Name:   "Taiwan",
+	Slug:   "taiwan",
 	Key:    "tw",
 	Code:   "TPE",
 	Motor:  "",
@@ -3127,6 +3350,7 @@ var TW = &Country{
 // TZ contains the data for Tanzania
 var TZ = &Country{
 	Name:   "Tanzania",
+	Slug:   "tanzania",
 	Key:    "tz",
 	Code:   "TAN",
 	Motor:  "",
@@ -3141,6 +3365,7 @@ var TZ = &Country{
 // UA contains the data for Ukraine
 var UA = &Country{
 	Name:   "Ukraine",
+	Slug:   "ukraine",
 	Key:    "ua",
 	Code:   "UKR",
 	Motor:  "UA",
@@ -3155,6 +3380,7 @@ var UA = &Country{
 // UG contains the data for Uganda
 var UG = &Country{
 	Name:   "Uganda",
+	Slug:   "uganda",
 	Key:    "ug",
 	Code:   "UGA",
 	Motor:  "",
@@ -3169,6 +3395,7 @@ var UG = &Country{
 // US contains the data for United States
 var US = &Country{
 	Name:   "United States",
+	Slug:   "united-states",
 	Key:    "us",
 	Code:   "USA",
 	Motor:  "USA",
@@ -3183,6 +3410,7 @@ var US = &Country{
 // UY contains the data for Uruguay
 var UY = &Country{
 	Name:   "Uruguay",
+	Slug:   "uruguay",
 	Key:    "uy",
 	Code:   "URU",
 	Motor:  "UY",
@@ -3197,6 +3425,7 @@ var UY = &Country{
 // UZ contains the data for Uzbekistan
 var UZ = &Country{
 	Name:   "Uzbekistan",
+	Slug:   "uzbekistan",
 	Key:    "uz",
 	Code:   "UZB",
 	Motor:  "",
@@ -3211,6 +3440,7 @@ var UZ = &Country{
 // VA contains the data for Vatican City
 var VA = &Country{
 	Name:   "Vatican City",
+	Slug:   "vatican-city",
 	Key:    "va",
 	Code:   "VAT",
 	Motor:  "V",
@@ -3225,6 +3455,7 @@ var VA = &Country{
 // VC contains the data for Saint Vincent and the Grenadines
 var VC = &Country{
 	Name:   "Saint Vincent and the Grenadines",
+	Slug:   "saint-vincent-and-the-grenadines",
 	Key:    "vc",
 	Code:   "VIN",
 	Motor:  "",
@@ -3239,6 +3470,7 @@ var VC = &Country{
 // VE contains the data for Venezuela
 var VE = &Country{
 	Name:   "Venezuela",
+	Slug:   "venezuela",
 	Key:    "ve",
 	Code:   "VEN",
 	Motor:  "YV",
@@ -3253,6 +3485,7 @@ var VE = &Country{
 // VG contains the data for British Virgin Islands
 var VG = &Country{
 	Name:   "British Virgin Islands",
+	Slug:   "british-virgin-islands",
 	Key:    "vg",
 	Code:   "VGB",
 	Motor:  "",
@@ -3267,6 +3500,7 @@ var VG = &Country{
 // VI contains the data for United States Virgin Islands
 var VI = &Country{
 	Name:   "United States Virgin Islands",
+	Slug:   "united-states-virgin-islands",
 	Key:    "vi",
 	Code:   "VIR",
 	Motor:  "",
@@ -3281,6 +3515,7 @@ var VI = &Country{
 // VN contains the data for Vietnam
 var VN = &Country{
 	Name:   "Vietnam",
+	Slug:   "vietnam",
 	Key:    "vn",
 	Code:   "VIE",
 	Motor:  "",
@@ -3295,6 +3530,7 @@ var VN = &Country{
 // VU contains the data for Vanuatu
 var VU = &Country{
 	Name:   "Vanuatu",
+	Slug:   "vanuatu",
 	Key:    "vu",
 	Code:   "VAN",
 	Motor:  "",
@@ -3309,6 +3545,7 @@ var VU = &Country{
 // WA contains the data for Wales
 var WA = &Country{
 	Name:   "Wales",
+	Slug:   "wales",
 	Key:    "wa",
 	Code:   "WAL",
 	Motor:  "CYM",
@@ -3323,6 +3560,7 @@ var WA = &Country{
 // WF contains the data for Wallis and Futuna
 var WF = &Country{
 	Name:   "Wallis and Futuna",
+	Slug:   "wallis-and-futuna",
 	Key:    "wf",
 	Code:   "WLF",
 	Motor:  "",
@@ -3337,6 +3575,7 @@ var WF = &Country{
 // WS contains the data for Samoa
 var WS = &Country{
 	Name:   "Samoa",
+	Slug:   "samoa",
 	Key:    "ws",
 	Code:   "SAM",
 	Motor:  "",
@@ -3351,6 +3590,7 @@ var WS = &Country{
 // YC contains the data for Seychelles
 var YC = &Country{
 	Name:   "Seychelles",
+	Slug:   "seychelles",
 	Key:    "yc",
 	Code:   "SEY",
 	Motor:  "",
@@ -3365,6 +3605,7 @@ var YC = &Country{
 // YE contains the data for Yemen
 var YE = &Country{
 	Name:   "Yemen",
+	Slug:   "yemen",
 	Key:    "ye",
 	Code:   "YEM",
 	Motor:  "",
@@ -3379,6 +3620,7 @@ var YE = &Country{
 // YT contains the data for Mayotte
 var YT = &Country{
 	Name:   "Mayotte",
+	Slug:   "mayotte",
 	Key:    "yt",
 	Code:   "MYT",
 	Motor:  "",
@@ -3393,6 +3635,7 @@ var YT = &Country{
 // ZA contains the data for South Africa
 var ZA = &Country{
 	Name:   "South Africa",
+	Slug:   "south-africa",
 	Key:    "za",
 	Code:   "RSA",
 	Motor:  "",
@@ -3407,6 +3650,7 @@ var ZA = &Country{
 // ZM contains the data for Zambia
 var ZM = &Country{
 	Name:   "Zambia",
+	Slug:   "zambia",
 	Key:    "zm",
 	Code:   "ZAM",
 	Motor:  "",
@@ -3421,6 +3665,7 @@ var ZM = &Country{
 // ZW contains the data for Zimbabwe
 var ZW = &Country{
 	Name:   "Zimbabwe",
+	Slug:   "zimbabwe",
 	Key:    "zw",
 	Code:   "ZIM",
 	Motor:  "",

@@ -10,4 +10,5 @@ func TestCountries(t *testing.T) {
 	assert := assert.New(t)
 
 	assert.Equal(SE.Name, "Sweden")
+	assert.Equal(ZA.Slug, "south-africa")
 }
