@@ -2,6 +2,7 @@ package world
 
 import "strings"
 
+// Country represents a country
 type Country struct {
 	Name          string // country name e.g. Austria
 	Key           string // key (iso alpha2 if available - otherwise alpha3)
