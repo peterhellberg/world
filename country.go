@@ -15,13 +15,18 @@ type Country struct {
 	Area   int    // area of the country
 }
 
+// Territory is a part of a country
 type Territory Country
+
+// Supranational is a union of countries (EU)
 type Supranational Country
 
+// IsISO returns a boolean if the country has a 3 letter alpha code
 func (c *Country) IsISO() bool {
 	return c.Alpha3 != ""
 }
 
+// IsFIFA returns a boolean if the country is part of FIFA
 func (c *Country) IsFIFA() bool {
 	return c.FIFA != ""
 }
